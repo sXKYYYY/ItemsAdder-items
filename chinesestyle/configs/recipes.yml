@@ -14,7 +14,18 @@ recipes:
       result: 
         item: chinesestyle:bamboo_slips 
         amount: 1
-  
+    bronze_mirror:
+      enabled: true
+      pattern:
+      - XSX
+      - SBS
+      - XSX
+      ingredients:
+        S:STICK
+        B:BRONZE_INGOT
+      result:
+        item: chinesestyle:bronze_mirror
+        amount: 1
   cooking: 
     blue_brick:
       enabled: true
