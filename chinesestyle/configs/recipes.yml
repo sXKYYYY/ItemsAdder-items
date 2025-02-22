@@ -22,7 +22,7 @@ recipes:
       - XSX
       ingredients:
         S:STICK
-        B:BRONZE_INGOT
+        B:COPPER_INGOT
       result:
         item: chinesestyle:bronze_mirror
         amount: 1
