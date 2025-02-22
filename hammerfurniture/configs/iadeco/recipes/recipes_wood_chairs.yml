@@ -1,0 +1,212 @@
+info:
+  namespace: hammerfurniture
+recipes:
+  crafting_table:
+    white_wood_chair:
+      permission: hammerfurniture.wood_chairs.white_wood_chair
+      enabled: true
+      pattern:
+        - WWW
+        - PXP
+        - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: WHITE_WOOL
+      result:
+        item: hammerfurniture:white_wood_chair
+        amount: 1
+    orange_wood_chair:
+      permission: hammerfurniture.wood_chairs.orange_wood_chair
+      enabled: true
+      pattern:
+        - WWW
+        - PXP
+        - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: ORANGE_WOOL
+      result:
+        item: hammerfurniture:orange_wood_chair
+        amount: 1
+    magenta_wood_chair:
+      permission: hammerfurniture.wood_chairs.magenta_wood_chair
+      enabled: true
+      pattern:
+        - WWW
+        - PXP
+        - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: MAGENTA_WOOL
+      result:
+        item: hammerfurniture:magenta_wood_chair
+        amount: 1
+    light_blue_wood_chair:
+      permission: hammerfurniture.wood_chairs.light_blue_wood_chair
+      enabled: true
+      pattern:
+        - WWW
+        - PXP
+        - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: LIGHT_BLUE_WOOL
+      result:
+        item: hammerfurniture:light_blue_wood_chair
+        amount: 1
+    yellow_wood_chair:
+      permission: hammerfurniture.wood_chairs.yellow_wood_chair
+      enabled: true
+      pattern:
+        - WWW
+        - PXP
+        - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: YELLOW_WOOL
+      result:
+        item: hammerfurniture:yellow_wood_chair
+        amount: 1
+    lime_wood_chair:
+      permission: hammerfurniture.wood_chairs.lime_wood_chair
+      enabled: true
+      pattern:
+        - WWW
+        - PXP
+        - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: LIME_WOOL
+      result:
+        item: hammerfurniture:lime_wood_chair
+        amount: 1
+    pink_wood_chair:
+      permission: hammerfurniture.wood_chairs.pink_wood_chair
+      enabled: true
+      pattern:
+        - WWW
+        - PXP
+        - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: PINK_WOOL
+      result:
+        item: hammerfurniture:pink_wood_chair
+        amount: 1
+    gray_wood_chair:
+      permission: hammerfurniture.wood_chairs.gray_wood_chair
+      enabled: true
+      pattern:
+        - WWW
+        - PXP
+        - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: GRAY_WOOL
+      result:
+        item: hammerfurniture:gray_wood_chair
+        amount: 1
+    light_gray_wood_chair:
+      permission: hammerfurniture.wood_chairs.light_gray_wood_chair
+      enabled: true
+      pattern:
+        - WWW
+        - PXP
+        - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: LIGHT_GRAY_WOOL
+      result:
+        item: hammerfurniture:light_gray_wood_chair
+        amount: 1
+    cyan_wood_chair:
+      permission: hammerfurniture.wood_chairs.cyan_wood_chair
+      enabled: true
+      pattern:
+        - WWW
+        - PXP
+        - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: CYAN_WOOL
+      result:
+        item: hammerfurniture:cyan_wood_chair
+        amount: 1
+    purple_wood_chair:
+      permission: hammerfurniture.wood_chairs.purple_wood_chair
+      enabled: true
+      pattern:
+        - WWW
+        - PXP
+        - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: PURPLE_WOOL
+      result:
+        item: hammerfurniture:purple_wood_chair
+        amount: 1
+    blue_wood_chair:
+      permission: hammerfurniture.wood_chairs.blue_wood_chair
+      enabled: true
+      pattern:
+        - WWW
+        - PXP
+        - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: BLUE_WOOL
+      result:
+        item: hammerfurniture:blue_wood_chair
+        amount: 1
+    brown_wood_chair:
+      permission: hammerfurniture.wood_chairs.brown_wood_chair
+      enabled: true
+      pattern:
+        - WWW
+        - PXP
+        - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: BROWN_WOOL
+      result:
+        item: hammerfurniture:brown_wood_chair
+        amount: 1
+    green_wood_chair:
+      permission: hammerfurniture.wood_chairs.green_wood_chair
+      enabled: true
+      pattern:
+        - WWW
+        - PXP
+        - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: GREEN_WOOL
+      result:
+        item: hammerfurniture:green_wood_chair
+        amount: 1
+    red_wood_chair:
+      permission: hammerfurniture.wood_chairs.red_wood_chair
+      enabled: true
+      pattern:
+        - WWW
+        - PXP
+        - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: RED_WOOL
+      result:
+        item: hammerfurniture:red_wood_chair
+        amount: 1
+    black_wood_chair:
+      permission: hammerfurniture.wood_chairs.black_wood_chair
+      enabled: true
+      pattern:
+        - WWW
+        - PXP
+        - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: BLACK_WOOL
+      result:
+        item: hammerfurniture:black_wood_chair
+        amount: 1

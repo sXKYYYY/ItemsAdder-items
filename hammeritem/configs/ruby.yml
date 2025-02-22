@@ -1,0 +1,112 @@
+info:
+  namespace: hammeritem
+items:
+  mysterious_ore:
+    enabled: true
+    display_name: "宝石矿石"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - items/ore/mysterious_ore
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles_material: DEEPSLATE
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - GOLDEN_PICKAXE
+          - IRON_PICKAXE
+          - DIAMOND_PICKAXE
+          - NETHERITE_PICKAXE
+  ruby_block:
+    enabled: true
+    display_name: "宝石块"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - items/ore/ruby_block
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+        cancel_drop: true
+
+  ruby:
+    enabled: true
+    display_name: 宝石
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - items/ore/ruby
+
+# worlds_populators:
+#   mysterious_ore:
+#     block: hammeritem:mysterious_ore
+#     worlds:
+#       - vanilla
+#     replaceable_blocks:
+#       - STONE
+#       - ANDESITE
+#       - GRANITE
+#       - COBBLESTONE
+#       - GRAVEL
+#       - DEEPSLATE
+#       - COBBLED_DEEPSLATE
+#       - CALCITE
+#       - TUFF
+#     chunk_chance: 80
+#     max_height: 180
+#     min_height: 20
+#     vein_blocks: 5
+#     chunk_veins: 6
+
+recipes:
+  crafting_table:
+    ruby_block:
+      enabled: true
+      pattern:
+        - SSS
+        - SSS
+        - SSS
+      ingredients:
+        S: hammeritem:ruby
+      result:
+        item: hammeritem:ruby_block
+        amount: 1
+    ruby:
+      enabled: true
+      shapeless: true
+      ingredients:
+        A: hammeritem:ruby_block
+      result:
+        item: hammeritem:ruby
+        amount: 9
+
+loots:
+  blocks:
+    mysterious_ore:
+      type: hammeritem:mysterious_ore
+      items:
+        hammeritem:ruby:
+          item: hammeritem:ruby
+          min_amount: 1
+          max_amount: 1
+          ignore_fortune: true
+          chance: 100
+    ruby_block:
+      type: hammeritem:ruby_block
+      items:
+        hammeritem:ruby_block:
+          item: hammeritem:ruby_block
+          min_amount: 1
+          max_amount: 1
+          ignore_fortune: true
+          chance: 100

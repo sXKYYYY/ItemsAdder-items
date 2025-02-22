@@ -1,0 +1,84 @@
+info:
+  namespace: "hammerimage"
+font_images:
+  information:
+    show_in_gui: false
+    permission: none
+    path: "hammerimage:titles/information.png"
+    y_position: 47
+  ah:
+    show_in_gui: false
+    permission: none
+    path: "hammerimage:titles/ah.png"
+    y_position: 47
+  cosmetics:
+    show_in_gui: false
+    permission: none
+    path: "hammerimage:titles/cosmetics.png"
+    y_position: 47
+  discord:
+    show_in_gui: false
+    permission: none
+    path: "hammerimage:titles/discord.png"
+    y_position: 47
+  facebook:
+    show_in_gui: false
+    permission: none
+    path: "hammerimage:titles/facebook.png"
+    y_position: 47
+  freeitem:
+    show_in_gui: false
+    permission: none
+    path: "hammerimage:titles/freeitem.png"
+    y_position: 47
+  help:
+    show_in_gui: false
+    permission: none
+    path: "hammerimage:titles/help.png"
+    y_position: 47
+  jobs:
+    show_in_gui: false
+    permission: none
+    path: "hammerimage:titles/jobs.png"
+    y_position: 47
+  kits:
+    show_in_gui: false
+    permission: none
+    path: "hammerimage:titles/kits.png"
+    y_position: 47
+  profile:
+    show_in_gui: false
+    permission: none
+    path: "hammerimage:titles/profile.png"
+    y_position: 47
+  protect:
+    show_in_gui: false
+    permission: none
+    path: "hammerimage:titles/protect.png"
+    y_position: 47
+  shop:
+    show_in_gui: false
+    permission: none
+    path: "hammerimage:titles/shop.png"
+    y_position: 47
+  tags:
+    show_in_gui: false
+    permission: none
+    path: "hammerimage:titles/tags.png"
+    y_position: 47
+  testah:
+    show_in_gui: false
+    permission: none
+    path: "hammerimage:titles/vote.png"
+    y_position: 47
+  warps:
+    show_in_gui: false
+    permission: none
+    path: "hammerimage:titles/warps.png"
+    y_position: 47
+  store:
+    show_in_gui: false
+    permission: none
+    path: "hammerimage:titles/store.png"
+    y_position: 47
+ 

@@ -1,0 +1,30 @@
+info:
+  namespace: hammeritem
+items:
+  architecture_voucher:
+    display_name: "建材券"
+    lore:
+      - "&7&l| &f可用于兑换建材"
+      - "&7&l| &f仅限建筑使用"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - items/voucher/voucher
+  honour:
+    display_name: "功勋"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - items/voucher/voucher
+  7th_voucher:
+    display_name: "七周年·共建"
+    lore:
+      - "&7&l| &f可用于兑换建材"
+      - "&7&l| &f仅限七周年·共建使用"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - items/voucher/voucher

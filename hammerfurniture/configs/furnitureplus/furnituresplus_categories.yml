@@ -1,0 +1,60 @@
+info:
+  namespace: hammerfurniture
+categories:
+  hammerfurniture:
+    enabled: true
+    skip_if_already: false
+    icon: "hammerfurniture:cyan_lowtable"
+    name: 纺织
+    permission: itemsadder.menu.hammerfurniture
+    items:
+      - "hammerfurniture:fabric_machine_plus"
+      - "hammerfurniture:red_wooden_sofa_left"
+      - "hammerfurniture:red_wooden_sofa_right"
+      - "hammerfurniture:red_lowtable" 
+      - "hammerfurniture:red_wooden_lamp" 
+     #######
+      - "hammerfurniture:white_wooden_sofa_left"
+      - "hammerfurniture:white_wooden_sofa_right"
+      - "hammerfurniture:white_wooden_lowtable"  
+      - "hammerfurniture:white_wooden_lamp"   
+     #######      
+      - "hammerfurniture:cyan_wooden_sofa_left"            
+      - "hammerfurniture:cyan_wooden_sofa_right"              
+      - "hammerfurniture:cyan_lowtable"                   
+      - "hammerfurniture:cyan_wooden_lamp"          
+     #######      
+      - "hammerfurniture:gray_wooden_sofa_left"            
+      - "hammerfurniture:gray_wooden_sofa_right"      
+      - "hammerfurniture:gray_wooden_lowtable"  
+      - "hammerfurniture:gray_wooden_lamp" 
+     #######      
+      - "hammerfurniture:iron_sofa_left"            
+      - "hammerfurniture:iron_sofa_right"      
+      - "hammerfurniture:iron_lowtable" 
+      - "hammerfurniture:iron_lamp" 
+     #######
+      - "hammerfurniture:amethyst_sofa_left" 
+      - "hammerfurniture:amethyst_sofa_right" 
+      - "hammerfurniture:amethyst_lowtable" 
+      - "hammerfurniture:amethyst_lamp" 
+     #######
+      - "hammerfurniture:black_shop_cover"
+      - "hammerfurniture:blue_shop_cover"
+      - "hammerfurniture:brown_shop_cover"
+      - "hammerfurniture:cyan_shop_cover"
+      - "hammerfurniture:gray_shop_cover"
+      - "hammerfurniture:light_gray_shop_cover"
+      - "hammerfurniture:green_shop_cover"
+      - "hammerfurniture:lime_shop_cover"
+      - "hammerfurniture:light_blue_shop_cover"
+      - "hammerfurniture:magenta_shop_cover"
+      - "hammerfurniture:pink_shop_cover"
+      - "hammerfurniture:purple_shop_cover"
+      - "hammerfurniture:orange_shop_cover"
+      - "hammerfurniture:red_shop_cover"
+      - "hammerfurniture:white_shop_cover"
+      - "hammerfurniture:yellow_shop_cover"
+      
+ 
+ 

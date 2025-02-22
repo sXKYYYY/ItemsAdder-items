@@ -1,0 +1,15 @@
+info:
+  namespace: hammerfurniture
+categories:
+  hammerfurnitures:
+    enabled: true
+    skip_if_already: false
+    icon: "hammerfurniture:suzume_s_chair"
+    name: 装饰
+    items:
+      - "hammerfurniture:shrine_of_hammer"
+      - "hammerfurniture:mooncake"
+      - "hammerfurniture:suzume_s_chair"
+      
+ 
+ 

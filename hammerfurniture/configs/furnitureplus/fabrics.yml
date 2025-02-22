@@ -1,0 +1,351 @@
+info:
+  namespace: "hammerfurniture"
+recipes:
+  crafting_table:
+    fabric_machine_plus:
+      permission: itemsadder.hammerfurniture    
+      lore:
+        - "&6织布机"
+      enabled: true
+      ingredients:
+        P: "OAK_PLANKS"
+        S: "STRING"
+      pattern:
+        - "PPP"
+        - "SSS"
+        - "PPP"
+      result:
+        item: "hammerfurniture:fabric_machine_plus"
+        amount: 1
+
+      
+items:
+  cyansummerfabric:
+    display_name: "&3青色的夏季面料"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&6由织布机制成"    
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/cyansummer.png
+  acaciagrayfabric:
+    display_name: "&6金合欢灰色面料"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&6由织布机制成"    
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/acaciagray.png
+  redfabric:
+    display_name: "&c红色面料"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&6由织布机制成"    
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/redfabric.png
+  yellowfabric:
+    display_name: "&e黄色面料"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&6由织布机制成"    
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/yellowfabric.png
+  blackfabric:
+    display_name: "&8黑色面料"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&6由织布机制成"    
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/darkgrayfabric.png
+  greenfabric:
+    display_name: "&2绿色面料"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&6由织布机制成"    
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/greenfabric.png
+  bluefabric:
+    display_name: "&1蓝色面料"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&6由织布机制成"    
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/bluefabric.png
+  amethystfabric:
+    display_name: "&5紫水晶面料"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&6由织布机制成"    
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/amethystfabric.png
+  whitefabric:
+    display_name: "&f白色面料"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&6由织布机制成"    
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/whitefabric.png
+  brownfabric:
+    display_name: "棕色面料"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&6由织布机制成"    
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/brownfabric.png
+  grayfabric:
+    display_name: "&7灰色面料"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&6由织布机制成"    
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/grayfabric.png
+  magentafabric:
+    display_name: "&d品红色面料"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&6由织布机制成"    
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/magentafabric.png
+  pinkfabric:
+    display_name: "&d粉色面料"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&6由织布机制成"    
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/pinkfabric.png
+  purplefabric:
+    display_name: "&5紫色面料"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&6由织布机制成"    
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/purplefabric.png
+
+#############################################################
+#############################################################
+#############################################################
+
+  fabric_machine_plus:
+    display_name: "超级织布机"
+    permission: itemsadder.hammerfurniture
+    resource:
+      material: PAPER
+      generate: false
+      model_path: furnituresplus/machine/fabric_machine_plus
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+    behaviours:
+      block_trade_machine:
+        title: 超级织布机
+        trades_list:
+          cyansummerfabric:
+            ingredients:
+              slot1:
+                item: STRING
+                amount: 32
+              slot2:
+                item: CYAN_DYE
+                amount: 2
+            result:
+              item: cyansummerfabric
+              amount: 1
+              
+          acaciagrayfabric:
+            ingredients:
+              slot1:
+                item: STRING
+                amount: 32
+              slot2:
+                item: ORANGE_DYE
+                amount: 2
+            result:
+              item: acaciagrayfabric
+              amount: 1
+              
+          redfabric:
+            ingredients:
+              slot1:
+                item: STRING
+                amount: 32
+              slot2:
+                item: RED_DYE
+                amount: 2
+            result:
+              item: redfabric
+              amount: 1
+              
+          yellowfabric:
+            ingredients:
+              slot1:
+                item: STRING
+                amount: 32
+              slot2:
+                item: YELLOW_DYE
+                amount: 2
+            result:
+              item: yellowfabric
+              amount: 1
+          blackfabric:
+            ingredients:
+              slot1:
+                item: STRING
+                amount: 32
+              slot2:
+                item: BLACK_DYE
+                amount: 2
+            result:
+              item: blackfabric
+              amount: 1
+          greenfabric:
+            ingredients:
+              slot1:
+                item: STRING
+                amount: 32
+              slot2:
+                item: GREEN_DYE
+                amount: 2
+            result:
+              item: greenfabric
+              amount: 1
+          bluefabric:
+            ingredients:
+              slot1:
+                item: STRING
+                amount: 32
+              slot2:
+                item: BLUE_DYE
+                amount: 2
+            result:
+              item: bluefabric
+              amount: 1
+          amethystfabric:
+            ingredients:
+              slot1:
+                item: STRING
+                amount: 32
+              slot2:
+                item: AMETHYST_SHARD
+                amount: 2
+            result:
+              item: amethystfabric
+              amount: 1
+          brownfabric:
+            ingredients:
+              slot1:
+                item: STRING
+                amount: 32
+              slot2:
+                item: BROWN_DYE
+                amount: 2
+            result:
+              item: brownfabric
+              amount: 1
+          grayfabric:
+            ingredients:
+              slot1:
+                item: STRING
+                amount: 32
+              slot2:
+                item: GRAY_DYE
+                amount: 2
+            result:
+              item: grayfabric
+              amount: 1
+          magentafabric:
+            ingredients:
+              slot1:
+                item: STRING
+                amount: 32
+              slot2:
+                item: MAGENTA_DYE
+                amount: 2
+            result:
+              item: magentafabric
+              amount: 1
+          pinkfabric:
+            ingredients:
+              slot1:
+                item: STRING
+                amount: 32
+              slot2:
+                item: PINK_DYE
+                amount: 2
+            result:
+              item: pinkfabric
+              amount: 1
+          purplefabric:
+            ingredients:
+              slot1:
+                item: STRING
+                amount: 32
+              slot2:
+                item: PURPLE_DYE
+                amount: 2
+            result:
+              item: purplefabric
+              amount: 1
+          whitefabric:
+            ingredients:
+              slot1:
+                item: STRING
+                amount: 32
+            result:
+              item: whitefabric
+              amount: 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

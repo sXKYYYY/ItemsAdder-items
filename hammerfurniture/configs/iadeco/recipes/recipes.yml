@@ -1,0 +1,208 @@
+info:
+  namespace: hammerfurniture
+recipes:
+  crafting_table:
+    old_clock:
+      permission: hammerfurniture.old_clock
+      enabled: true
+      pattern:
+        - WCW
+        - WGW
+        - WWW
+      ingredients:
+        C: CLOCK
+        W: LEGACY_WOOD
+        G: GOLD_INGOT
+      result:
+        item: hammerfurniture:old_clock
+        amount: 1
+    opened_chest:
+      permsion: hammerfurniture.opened_chest
+      enabled: true
+      pattern:
+        - XGX
+        - XCX
+        - XXX
+      ingredients:
+        C: CHEST
+        G: GLASS
+      result:
+        item: hammerfurniture:opened_chest
+        amount: 1
+    computer_desk:
+      permission: hammerfurniture.computer_desk
+      enabled: true
+      pattern:
+        - XRX
+        - WWW
+        - SXS
+      ingredients:
+        R: REDSTONE
+        W: OAK_PLANKS
+        S: STICK
+      result:
+        item: hammerfurniture:computer_desk
+        amount: 1
+    table:
+      permission: hammerfurniture.table
+      enabled: true
+      pattern:
+        - XXX
+        - WWW
+        - WXW
+      ingredients:
+        W: OAK_PLANKS
+      result:
+        item: hammerfurniture:table
+        amount: 1
+    lamp:
+      permission: hammerfurniture.lamp
+      enabled: true
+      pattern:
+        - QTQ
+        - XSX
+        - XSX
+      ingredients:
+        Q: QUARTZ_BLOCK
+        T: TORCH
+        S: STICK
+      result:
+        item: hammerfurniture:lamp
+        amount: 1
+    simple_chair:
+      permission: hammerfurniture.simple_chair
+      enabled: true
+      pattern:
+        - WWW
+        - PPP
+        - SXS
+      ingredients:
+        W: LIGHT_BLUE_WOOL
+        P: OAK_PLANKS
+        S: STICK
+      result:
+        item: hammerfurniture:simple_chair
+        amount: 1
+    lava_lamp:
+      permission: hammerfurniture.lava_lamp
+      enabled: true
+      pattern:
+        - XXX
+        - XLX
+        - XIX
+      ingredients:
+        L: LAVA_BUCKET
+        I: hammeritem:iron_plate
+      result:
+        item: hammerfurniture:lava_lamp
+        amount: 1
+      return_items:
+        replace:
+          LAVA_BUCKET: BUCKET
+    white_chair:
+      permission: hammerfurniture.white_chair
+      enabled: true
+      pattern:
+        - WWW
+        - PPP
+        - SXS
+      ingredients:
+        W: WHITE_WOOL
+        P: OAK_PLANKS
+        S: STICK
+      result:
+        item: hammerfurniture:white_chair
+        amount: 1
+    glass_table:
+      permission: hammerfurniture.glass_table
+      enabled: true
+      pattern:
+        - XXX
+        - GGG
+        - IXI
+      ingredients:
+        G: GLASS_PANE
+        I: IRON_INGOT
+      result:
+        item: hammerfurniture:glass_table
+        amount: 1
+    computer_chair:
+      permission: hammerfurniture.computer_chair
+      enabled: true
+      pattern:
+        - XXX
+        - WWW
+        - SXS
+      ingredients:
+        W: WHITE_WOOL
+        S: STICK
+      result:
+        item: hammerfurniture:computer_chair
+        amount: 1
+    monitor:
+      permission: hammerfurniture.monitor
+      enabled: true
+      pattern:
+        - XXX
+        - POP
+        - XIX
+      ingredients:
+        P: hammeritem:plastic_plate
+        O: REDSTONE
+        I: IRON_INGOT
+      result:
+        item: hammerfurniture:monitor
+        amount: 1
+    tv:
+      permission: hammerfurniture.tv
+      enabled: true
+      pattern:
+        - PPP
+        - POP
+        - XIX
+      ingredients:
+        P: hammeritem:plastic_plate
+        O: REDSTONE
+        I: IRON_INGOT
+      result:
+        item: hammerfurniture:tv
+        amount: 1
+    white_chandeliers:
+      permission: hammerfurniture.white_chandeliers
+      enabled: true
+      pattern:
+        - XBX
+        - PWP
+        - PXP
+      ingredients:
+        P: hammeritem:plastic
+        B: IRON_BARS
+        W: IRON_BLOCK
+      result:
+        item: hammerfurniture:white_chandeliers
+        amount: 1
+    small_fountain:
+      permission: hammerfurniture.small_fountain
+      enabled: true
+      pattern:
+        - XWX
+        - XSX
+        - SSS
+      ingredients:
+        W: WATER_BUCKET
+        S: STONE_BRICKS
+      result:
+        item: hammerfurniture:small_fountain
+        amount: 1
+    cut_spruce_log:
+      permission: hammerfurniture.cut_spruce_log
+      enabled: true
+      pattern:
+        - XXX
+        - XWX
+        - XWX
+      ingredients:
+        W: SPRUCE_LOG
+      result:
+        item: hammerfurniture:cut_spruce_log
+        amount: 6

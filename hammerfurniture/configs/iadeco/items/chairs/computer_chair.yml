@@ -1,0 +1,18 @@
+info:
+  namespace: hammerfurniture
+items:
+  computer_chair:
+    enabled: true
+    display_name: display-name-computer_chair
+    permission: hammerfurniture.chairs.computer_chair
+    lore:
+      - lore-chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: iadeco/computer_chair
+    behaviours:
+      furniture:
+        small: true
+      furniture_sit:
+        sit_height: 0.5

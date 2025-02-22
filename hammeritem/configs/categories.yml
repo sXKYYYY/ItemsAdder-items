@@ -1,0 +1,23 @@
+info:
+  namespace: hammeritem
+categories:
+  moonday:
+    enabled: true
+    icon: hammeritem:wuren_mooncake
+    name: '中秋'
+    items:
+      - hammerfurniture:mooncake_model
+      - hammeritem:chocolate_mooncake
+      - hammeritem:chorus_mooncake
+      - hammeritem:cpk_mooncake
+      - hammeritem:diamond_mooncake
+      - hammeritem:dousha_mooncake
+      - hammeritem:emerald_mooncake
+      - hammeritem:gold_mooncake
+      - hammeritem:honey_mooncake
+      - hammeritem:ice_mooncake
+      - hammeritem:lianrong_mooncake
+      - hammeritem:slime_mooncake
+      - hammeritem:wuren_mooncake
+      - hammeritem:mooncake
+      - hammeritem:flat_mooncake

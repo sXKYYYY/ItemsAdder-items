@@ -1,0 +1,16 @@
+info:
+  namespace: hammerfurniture
+items:
+  tv:
+    enabled: true
+    display_name: display-name-tv
+    permission: hammerfurniture.decorations.tv
+    lore:
+      - lore-decorative-item
+    resource:
+      material: PAPER
+      generate: false
+      model_path: iadeco/tv
+    behaviours:
+      furniture:
+        small: true

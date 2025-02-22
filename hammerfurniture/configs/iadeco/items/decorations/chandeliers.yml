@@ -1,0 +1,45 @@
+info:
+  namespace: hammerfurniture
+items:
+  white_chandeliers:
+    enabled: true
+    display_name: display-name-white_chandeliers
+    permission: hammerfurniture.decorations.chandeliers.white_chandeliers
+    resource:
+      material: PAPER
+      generate: false
+      model_path: iadeco/white_chandeliers
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+        light_level: 12
+  black_chandeliers:
+    enabled: true
+    display_name: display-name-black_chandeliers
+    permission: hammerfurniture.decorations.chandeliers.black_chandeliers
+    resource:
+      material: PAPER
+      generate: false
+      model_path: iadeco/black_chandeliers
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+        light_level: 12
+  black_and_red_chandeliers:
+    enabled: true
+    display_name: display-name-black_and_red_chandeliers
+    permission: hammerfurniture.decorations.chandeliers.black_and_red_chandeliers
+    resource:
+      material: PAPER
+      generate: false
+      model_path: iadeco/black_and_red_chandeliers
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+        light_level: 12

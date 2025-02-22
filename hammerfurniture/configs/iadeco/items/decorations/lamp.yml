@@ -1,0 +1,16 @@
+info:
+  namespace: hammerfurniture
+items:
+  lamp:
+    enabled: true
+    display_name: display-name-lamp
+    permission: hammerfurniture.decorations.lamp
+    lore:
+      - lore-decorative-item
+    resource:
+      material: PAPER
+      generate: false
+      model_path: iadeco/lamp
+    behaviours:
+      furniture:
+        light_level: 13

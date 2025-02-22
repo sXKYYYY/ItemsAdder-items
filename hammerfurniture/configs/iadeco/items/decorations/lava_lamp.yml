@@ -1,0 +1,17 @@
+info:
+  namespace: hammerfurniture
+items:
+  lava_lamp:
+    enabled: true
+    display_name: display-name-lava_lamp
+    permission: hammerfurniture.decorations.lava_lamp
+    lore:
+      - lore-decorative-item
+    resource:
+      material: PAPER
+      generate: false
+      model_path: iadeco/lava_lamp
+    behaviours:
+      furniture:
+        small: true
+        light_level: 7

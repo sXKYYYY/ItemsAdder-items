@@ -1,0 +1,17 @@
+info:
+  namespace: hammerfurniture
+items:
+  computer_desk:
+    enabled: true
+    display_name: display-name-computer_desk
+    permission: hammerfurniture.decorations.computer_desk
+    lore:
+      - lore-decorative-item
+    resource:
+      material: PAPER
+      generate: false
+      model_path: iadeco/computer_desk
+    behaviours:
+      furniture:
+        small: true
+        solid: true

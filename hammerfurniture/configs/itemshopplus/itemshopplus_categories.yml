@@ -1,0 +1,41 @@
+info:
+  namespace: hammerfurniture
+categories:
+  itemshop:
+    enabled: true
+    skip_if_already: false
+    icon: "hammerfurniture:wool_sellbox"
+    name: 商店
+    permission: itemsadder.menu.itemshop
+    items:
+      - "hammerfurniture:storage_box"
+      - "hammerfurniture:storage_box_mini"
+#####      
+      - "hammerfurniture:apple_sellbox"
+      - "hammerfurniture:beetroot_sellbox"
+      - "hammerfurniture:carrot_sellbox"
+      - "hammerfurniture:copper_sellbox"
+      - "hammerfurniture:fish_sellbox"
+      - "hammerfurniture:gapple_sellbox"
+      - "hammerfurniture:glowberry_sellbox"
+      - "hammerfurniture:melon_sellbox"
+      - "hammerfurniture:minerals_sellbox"
+      - "hammerfurniture:potato_sellbox"
+      - "hammerfurniture:sugar_cane_sellbox"
+      - "hammerfurniture:sweet_berries_sellbox"
+      - "hammerfurniture:terracotta_sellbox"
+      - "hammerfurniture:wood_sellbox"
+      - "hammerfurniture:wool_sellbox"
+      - "hammerfurniture:sword_sellbox"
+      - "hammerfurniture:tools_sellbox"
+      - "hammerfurniture:books_sellbox"
+#####
+      - "hammerfurniture:cash_register_black"
+      - "hammerfurniture:cash_register_blue"
+      - "hammerfurniture:cash_register_brown"
+      - "hammerfurniture:cash_register_cyan"
+      - "hammerfurniture:cash_register_green"
+      - "hammerfurniture:cash_register_orange"
+      - "hammerfurniture:cash_register_pink"
+      - "hammerfurniture:cash_register_red"
+      - "hammerfurniture:cash_register_yellow"

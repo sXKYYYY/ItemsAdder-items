@@ -1,0 +1,948 @@
+info:
+  namespace: "hammerfurniture"
+recipes:
+  crafting_table:
+    storage_box:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "PXP"
+        - "SPS"
+        - "PXP"
+      result:
+        item: "hammerfurniture:storage_box"
+        amount: 1
+    storage_box_mini:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "xxx"
+        - "SPS"
+        - "PXP"
+      result:
+        item: "hammerfurniture:storage_box_mini"
+        amount: 1
+    apple_sellbox:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        G: "APPLE"
+        P: "SPRUCE_SLAB"
+      pattern:
+        - "xxx"
+        - "PGP"
+        - "PPP"
+      result:
+        item: "hammerfurniture:apple_sellbox"
+        amount: 1
+    beetroot_sellbox:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        G: "BEETROOT"
+        P: "SPRUCE_SLAB"
+      pattern:
+        - "xxx"
+        - "PGP"
+        - "PPP"
+      result:
+        item: "hammerfurniture:beetroot_sellbox"
+        amount: 1
+    carrot_sellbox:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        G: "CARROT"
+        P: "SPRUCE_SLAB"
+      pattern:
+        - "xxx"
+        - "PGP"
+        - "PPP"
+      result:
+        item: "hammerfurniture:carrot_sellbox"
+        amount: 1
+    copper_sellbox:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        G: "COPPER_BLOCK"
+        P: "SPRUCE_SLAB"
+      pattern:
+        - "xxx"
+        - "PGP"
+        - "PPP"
+      result:
+        item: "hammerfurniture:copper_sellbox"
+        amount: 1
+    fish_sellbox:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        G: "COD"
+        P: "SPRUCE_SLAB"
+      pattern:
+        - "xxx"
+        - "PGP"
+        - "PPP"
+      result:
+        item: "hammerfurniture:fish_sellbox"
+        amount: 1
+    gapple_sellbox:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        G: "GOLDEN_APPLE"
+        P: "SPRUCE_SLAB"
+      pattern:
+        - "xxx"
+        - "PGP"
+        - "PPP"
+      result:
+        item: "hammerfurniture:gapple_sellbox"
+        amount: 1
+    glowberry_sellbox:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        G: "GLOW_BERRIES"
+        P: "SPRUCE_SLAB"
+      pattern:
+        - "xxx"
+        - "PGP"
+        - "PPP"
+      result:
+        item: "hammerfurniture:glowberry_sellbox"
+        amount: 1
+    melon_sellbox:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        G: "MELON_SLICE"
+        P: "SPRUCE_SLAB"
+      pattern:
+        - "xxx"
+        - "PGP"
+        - "PPP"
+      result:
+        item: "hammerfurniture:melon_sellbox"
+        amount: 1
+    minerals_sellbox:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        I: "IRON_INGOT"
+        E: "EMERALD"
+        D: "DIAMOND"
+        G: "GOLD_INGOT"
+        P: "SPRUCE_SLAB"
+      pattern:
+        - "IED"
+        - "PGP"
+        - "PPP"
+      result:
+        item: "hammerfurniture:minerals_sellbox"
+        amount: 1
+    potato_sellbox:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        G: "POTATO"
+        P: "SPRUCE_SLAB"
+      pattern:
+        - "XXX"
+        - "PGP"
+        - "PPP"
+      result:
+        item: "hammerfurniture:potato_sellbox"
+        amount: 1
+    sugar_cane_sellbox:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        G: "SUGAR_CANE"
+        P: "SPRUCE_SLAB"
+      pattern:
+        - "XXX"
+        - "PGP"
+        - "PPP"
+      result:
+        item: "hammerfurniture:sugar_cane_sellbox"
+        amount: 1
+    sweet_berries_sellbox:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        G: "SWEET_BERRIES"
+        P: "SPRUCE_SLAB"
+      pattern:
+        - "XXX"
+        - "PGP"
+        - "PPP"
+      result:
+        item: "hammerfurniture:sweet_berries_sellbox"
+        amount: 1
+    terracotta_sellbox:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        G: "TERRACOTTA"
+        P: "SPRUCE_SLAB"
+      pattern:
+        - "XXX"
+        - "PGP"
+        - "PPP"
+      result:
+        item: "hammerfurniture:terracotta_sellbox"
+        amount: 1
+    wood_sellbox:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        G: "OAK_LOG"
+        P: "SPRUCE_SLAB"
+      pattern:
+        - "XXX"
+        - "PGP"
+        - "PPP"
+      result:
+        item: "hammerfurniture:wood_sellbox"
+        amount: 1
+    wool_sellbox:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        R: "hammerfurniture:bluefabric"
+        Y: "hammerfurniture:yellowfabric"
+        G: "hammerfurniture:greenfabric"
+        K: "hammerfurniture:pinkfabric"
+        P: "SPRUCE_SLAB"
+      pattern:
+        - "RYG"
+        - "PKP"
+        - "PPP"
+      result:
+        item: "hammerfurniture:wool_sellbox"
+        amount: 1
+        
+    sword_sellbox:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        G: "IRON_SWORD"
+        P: "SPRUCE_SLAB"
+      pattern:
+        - "XXX"
+        - "PGP"
+        - "PPP"
+      result:
+        item: "hammerfurniture:sword_sellbox"
+        amount: 1
+    sword_sellbox:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        G: "IRON_SWORD"
+        P: "SPRUCE_SLAB"
+      pattern:
+        - "XXX"
+        - "PGP"
+        - "PPP"
+      result:
+        item: "hammerfurniture:sword_sellbox"
+        amount: 1
+    tools_sellbox:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        G: "DIAMOND_PICKAXE"
+        P: "SPRUCE_SLAB"
+      pattern:
+        - "XXX"
+        - "PGP"
+        - "PPP"
+      result:
+        item: "hammerfurniture:tools_sellbox"
+        amount: 1
+    books_sellbox:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        G: "BOOK"
+        P: "SPRUCE_SLAB"
+      pattern:
+        - "XXX"
+        - "PGP"
+        - "PPP"
+      result:
+        item: "hammerfurniture:books_sellbox"
+        amount: 1
+    cash_register_black:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        I: "IRON_INGOT"
+        S: "STONE_BUTTON"
+        R: "REDSTONE"
+        D: "BLACK_DYE"
+      pattern:
+        - "IDI"
+        - "SRS"
+        - "III"
+      result:
+        item: "hammerfurniture:cash_register_black"
+        amount: 1
+    cash_register_blue:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        I: "IRON_INGOT"
+        S: "STONE_BUTTON"
+        R: "REDSTONE"
+        D: "BLUE_DYE"
+      pattern:
+        - "IDI"
+        - "SRS"
+        - "III"
+      result:
+        item: "hammerfurniture:cash_register_blue"
+        amount: 1
+    cash_register_brown:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        I: "IRON_INGOT"
+        S: "STONE_BUTTON"
+        R: "REDSTONE"
+        D: "BROWN_DYE"
+      pattern:
+        - "IDI"
+        - "SRS"
+        - "III"
+      result:
+        item: "hammerfurniture:cash_register_brown"
+        amount: 1
+    cash_register_cyan:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        I: "IRON_INGOT"
+        S: "STONE_BUTTON"
+        R: "REDSTONE"
+        D: "CYAN_DYE"
+      pattern:
+        - "IDI"
+        - "SRS"
+        - "III"
+      result:
+        item: "hammerfurniture:cash_register_cyan"
+        amount: 1
+    cash_register_green:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        I: "IRON_INGOT"
+        S: "STONE_BUTTON"
+        R: "REDSTONE"
+        D: "GREEN_DYE"
+      pattern:
+        - "IDI"
+        - "SRS"
+        - "III"
+      result:
+        item: "hammerfurniture:cash_register_green"
+        amount: 1
+    cash_register_orange:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        I: "IRON_INGOT"
+        S: "STONE_BUTTON"
+        R: "REDSTONE"
+        D: "ORANGE_DYE"
+      pattern:
+        - "IDI"
+        - "SRS"
+        - "III"
+      result:
+        item: "hammerfurniture:cash_register_orange"
+        amount: 1
+    cash_register_pink:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        I: "IRON_INGOT"
+        S: "STONE_BUTTON"
+        R: "REDSTONE"
+        D: "PINK_DYE"
+      pattern:
+        - "IDI"
+        - "SRS"
+        - "III"
+      result:
+        item: "hammerfurniture:cash_register_pink"
+        amount: 1
+    cash_register_red:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        I: "IRON_INGOT"
+        S: "STONE_BUTTON"
+        R: "REDSTONE"
+        D: "RED_DYE"
+      pattern:
+        - "IDI"
+        - "SRS"
+        - "III"
+      result:
+        item: "hammerfurniture:cash_register_red"
+        amount: 1
+    cash_register_yellow:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        I: "IRON_INGOT"
+        S: "STONE_BUTTON"
+        R: "REDSTONE"
+        D: "YELLOW_DYE"
+      pattern:
+        - "IDI"
+        - "SRS"
+        - "III"
+      result:
+        item: "hammerfurniture:cash_register_yellow"
+        amount: 1
+ 
+
+items:
+         
+  storage_box:
+    display_name: "&f保险柜"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/storage_box        
+    behaviours:
+      furniture:
+        fixed_rotation: false      
+        solid: true
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  storage_box_mini:
+    display_name: "&f小保险柜"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/storage_box_mini        
+    behaviours:
+      furniture:
+        fixed_rotation: false      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+#####     
+  apple_sellbox:
+    display_name: "&f苹果销售台"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/sellbox/apple_sellbox        
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  beetroot_sellbox:
+    display_name: "&f甜菜根销售台"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/sellbox/beetroot_sellbox         
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  carrot_sellbox:
+    display_name: "&f胡萝卜销售台"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/sellbox/carrot_sellbox         
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  copper_sellbox:
+    display_name: "&f铜销售台"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/sellbox/copper_sellbox         
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  fish_sellbox:
+    display_name: "&f鱼销售台"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/sellbox/fish_sellbox         
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  gapple_sellbox:
+    display_name: "&f金苹果销售台"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/sellbox/gapple_sellbox         
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  glowberry_sellbox:
+    display_name: "&f发光浆果销售台"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/sellbox/glowberry_sellbox         
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  melon_sellbox:
+    display_name: "&f西瓜销售台"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/sellbox/melon_sellbox         
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  minerals_sellbox:
+    display_name: "&f矿物销售台"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/sellbox/minerals_sellbox         
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  potato_sellbox:
+    display_name: "&f土豆销售台"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/sellbox/potato_sellbox         
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  sugar_cane_sellbox:
+    display_name: "&f甘蔗销售台"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/sellbox/sugar_cane_sellbox         
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  sweet_berries_sellbox:
+    display_name: "&f甜浆果销售台"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/sellbox/sweet_berries_sellbox         
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  terracotta_sellbox:
+    display_name: "&f陶瓦销售台"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/sellbox/terracotta_sellbox         
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  wood_sellbox:
+    display_name: "&f木材销售台"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/sellbox/wood_sellbox         
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  wool_sellbox:
+    display_name: "&f羊毛销售台"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/sellbox/wool_sellbox         
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  sword_sellbox:
+    display_name: "&f剑销售台"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/sellbox/sword_sellbox         
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  tools_sellbox:
+    display_name: "&f工具销售台"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/sellbox/tools_sellbox         
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  books_sellbox:
+    display_name: "&f书本销售台"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/sellbox/books_sellbox         
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+####cash
+  cash_register_black:
+    display_name: "&f收银台（黑色）"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/cash/cash_register_black         
+    behaviours:
+      furniture:
+        fixed_rotation: false      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  cash_register_blue:
+    display_name: "&f收银台（蓝色）"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/cash/cash_register_blue         
+    behaviours:
+      furniture:
+        fixed_rotation: false      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  cash_register_brown:
+    display_name: "&f收银台（棕色）"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/cash/cash_register_brown         
+    behaviours:
+      furniture:
+        fixed_rotation: false      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  cash_register_cyan:
+    display_name: "&f收银台（青色）"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/cash/cash_register_cyan         
+    behaviours:
+      furniture:
+        fixed_rotation: false      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  cash_register_green:
+    display_name: "&f收银台（绿色）"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/cash/cash_register_green         
+    behaviours:
+      furniture:
+        fixed_rotation: false      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  cash_register_orange:
+    display_name: "&f收银台（橙色）"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/cash/cash_register_orange         
+    behaviours:
+      furniture:
+        fixed_rotation: false      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  cash_register_pink:
+    display_name: "&f收银台（粉色）"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/cash/cash_register_pink         
+    behaviours:
+      furniture:
+        fixed_rotation: false      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  cash_register_red:
+    display_name: "&f收银台（红色）"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/cash/cash_register_red         
+    behaviours:
+      furniture:
+        fixed_rotation: false      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  cash_register_yellow:
+    display_name: "&f收银台（黄色）"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/cash/cash_register_yellow         
+    behaviours:
+      furniture:
+        fixed_rotation: false      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+          

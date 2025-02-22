@@ -1,0 +1,16 @@
+info:
+  namespace: hammerfurniture
+items:
+  monitor:
+    enabled: true
+    display_name: display-name-monitor
+    permission: hammerfurniture.decorations.monitor
+    lore:
+      - lore-decorative-item
+    resource:
+      material: PAPER
+      generate: false
+      model_path: iadeco/monitor
+    behaviours:
+      furniture:
+        small: true

@@ -1,0 +1,21 @@
+info:
+  namespace: hammerfurniture
+items:
+  mooncake_model:
+    display_name: "月饼"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&e2022 中秋"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "hammer/mooncake"
+    behaviours:
+      furniture: 
+        fixed_rotation: true
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true

@@ -1,0 +1,88 @@
+info:
+  namespace: hammerfurniture
+categories:
+  furnitures:
+    enabled: true
+    skip_if_already: false
+    icon: hammerfurniture:computer_desk
+    name: display-category-furnitures
+    permission: itemsadder.menu.seecategory.furnitures
+    items:
+      - hammerfurniture:old_clock
+      - hammerfurniture:opened_chest
+      - hammerfurniture:computer_desk
+      - hammerfurniture:table
+      - hammerfurniture:glass_table
+      - hammerfurniture:lamp
+      - hammerfurniture:lava_lamp
+      - hammerfurniture:tv
+      - hammerfurniture:monitor
+      - hammerfurniture:mini_fridge
+      - hammerfurniture:mysterious_stone
+      - hammerfurniture:alchemy_candles
+      - hammerfurniture:white_chandeliers
+      - hammerfurniture:black_chandeliers
+      - hammerfurniture:black_and_red_chandeliers
+      - hammerfurniture:small_fountain
+      - hammerfurniture:lit_campfire
+  paintings:
+    enabled: true
+    skip_if_already: false
+    icon: hammerfurniture:painting_burst
+    name: display-category-paintings
+    permission: itemsadder.menu.seecategory.paintings
+    items:
+      - hammerfurniture:painting_burst
+      - hammerfurniture:painting_courbet
+      - hammerfurniture:painting_graham
+      - hammerfurniture:painting_match
+      - hammerfurniture:painting_pool
+      - hammerfurniture:painting_skull_and_roses
+      - hammerfurniture:painting_stage
+      - hammerfurniture:painting_void
+      - hammerfurniture:painting_wanderer
+  chairs:
+    enabled: true
+    skip_if_already: false
+    icon: hammerfurniture:simple_chair
+    name: display-category-chairs
+    permission: itemsadder.menu.seecategory.chairs
+    items:
+      - hammerfurniture:simple_chair
+      - hammerfurniture:white_chair
+      - hammerfurniture:computer_chair
+      - hammerfurniture:white_bar_chair
+      - hammerfurniture:orange_bar_chair
+      - hammerfurniture:magenta_bar_chair
+      - hammerfurniture:light_blue_bar_chair
+      - hammerfurniture:yellow_bar_chair
+      - hammerfurniture:lime_bar_chair
+      - hammerfurniture:pink_bar_chair
+      - hammerfurniture:gray_bar_chair
+      - hammerfurniture:light_gray_bar_chair
+      - hammerfurniture:cyan_bar_chair
+      - hammerfurniture:purple_bar_chair
+      - hammerfurniture:blue_bar_chair
+      - hammerfurniture:brown_bar_chair
+      - hammerfurniture:green_bar_chair
+      - hammerfurniture:red_bar_chair
+      - hammerfurniture:black_bar_chair
+      - hammerfurniture:white_wood_chair
+      - hammerfurniture:orange_wood_chair
+      - hammerfurniture:magenta_wood_chair
+      - hammerfurniture:light_blue_wood_chair
+      - hammerfurniture:yellow_wood_chair
+      - hammerfurniture:lime_wood_chair
+      - hammerfurniture:pink_wood_chair
+      - hammerfurniture:gray_wood_chair
+      - hammerfurniture:light_gray_wood_chair
+      - hammerfurniture:cyan_wood_chair
+      - hammerfurniture:purple_wood_chair
+      - hammerfurniture:blue_wood_chair
+      - hammerfurniture:brown_wood_chair
+      - hammerfurniture:green_wood_chair
+      - hammerfurniture:red_wood_chair
+      - hammerfurniture:black_wood_chair
+      - hammerfurniture:school_chair
+      - hammerfurniture:school_chair_lazy
+      - hammerfurniture:dark_throne

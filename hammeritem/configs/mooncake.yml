@@ -1,0 +1,436 @@
+info:
+  namespace: hammeritem
+items:
+  mooncake:
+    display_name: "&6月饼"
+    resource:
+      generate: true
+      material: APPLE
+      textures:
+        - items/mooncake/mooncake
+    events:
+      eat:
+        feed:
+          amount: 8
+          saturation: 6
+        potion_effect:
+            type: LEVITATION
+            duration: 400
+            amplifier: 1
+  flat_mooncake:
+    display_name: "&6月饼"
+    resource:
+      generate: true
+      material: APPLE
+      textures:
+        - items/mooncake/flat_mooncake
+    events:
+      eat:
+        feed:
+          amount: 8
+          saturation: 6
+        potion_effect:
+            type: LEVITATION
+            duration: 400
+            amplifier: 1
+  chocolate_mooncake:
+    display_name: "&8巧克力月饼"
+    resource:
+      generate: true
+      material: APPLE
+      textures:
+        - items/mooncake/chocolate_mooncake
+    events:
+      eat:
+        feed:
+          amount: 8
+          saturation: 6
+        potion_effect:
+            type: SLOW_FALLING
+            duration: 400
+            amplifier: 1
+  chorus_mooncake:
+    display_name: "&d紫颂果月饼"
+    resource:
+      generate: true
+      material: APPLE
+      textures:
+        - items/mooncake/chorus_mooncake
+    events:
+      eat:
+        feed:
+          amount: 8
+          saturation: 6
+        execute_commands:
+            cmd1:
+                command: 'cmi tppos {player} 0 70 0 the_end'
+                as_console: true
+                delay: 3
+
+  cpk_mooncake:
+    display_name: "&7CPK 月饼"
+    resource:
+      generate: true
+      material: APPLE
+      textures:
+        - items/mooncake/cpk_mooncake
+    events:
+      eat:
+        feed:
+          amount: -8
+          saturation: -6
+        explosion:
+          power: 1
+          fire: false
+          break_blocks: false
+  diamond_mooncake:
+    display_name: "&b钻石月饼"
+    resource:
+      generate: true
+      material: APPLE
+      textures:
+        - items/mooncake/diamond_mooncake
+    events:
+      eat:
+        feed:
+          amount: 8
+          saturation: 6
+        drop_item:
+          item: diamond
+          chance: 100
+          max_amount: 1
+          min_amount: 1
+  dousha_mooncake:
+    display_name: "&c豆沙月饼"
+    resource:
+      generate: true
+      material: APPLE
+      textures:
+        - items/mooncake/dousha_mooncake
+    events:
+      eat:
+        feed:
+          amount: 8
+          saturation: 6
+        potion_effect:
+            type: LUCK
+            duration: 400
+            amplifier: 1
+  emerald_mooncake:
+    display_name: "&a绿宝石月饼"
+    resource:
+      generate: true
+      material: APPLE
+      textures:
+        - items/mooncake/emerald_mooncake
+    events:
+      eat:
+        feed:
+          amount: 8
+          saturation: 6
+        drop_item:
+          item: emerald
+          chance: 100
+          max_amount: 1
+          min_amount: 1
+  gold_mooncake:
+    display_name: "&e黄金月饼"
+    resource:
+      generate: true
+      material: APPLE
+      textures:
+        - items/mooncake/gold_mooncake
+    events:
+      eat:
+        feed:
+          amount: 8
+          saturation: 6
+        drop_item:
+          item: gold_ingot
+          chance: 100
+          max_amount: 1
+          min_amount: 1
+  honey_mooncake:
+    display_name: "&6蜂蜜月饼"
+    resource:
+      generate: true
+      material: APPLE
+      textures:
+        - items/mooncake/honey_mooncake.png
+    events:
+      eat:
+        feed:
+          amount: 8
+          saturation: 6
+        play_particle:
+          name: "HEART"
+  ice_mooncake:
+    display_name: "&3冰皮月饼"
+    resource:
+      generate: true
+      material: APPLE
+      textures:
+        - items/mooncake/ice_mooncake.png
+    events:
+      eat:
+        feed:
+          amount: 8
+          saturation: 6
+        shoot_particle:
+          name: SONIC_BOOM
+          distance: 6
+        drop_item:
+          item: blue_ice
+          chance: 100
+          max_amount: 1
+          min_amount: 1
+  lianrong_mooncake:
+    display_name: "&e莲蓉月饼"
+    resource:
+      generate: true
+      material: APPLE
+      textures:
+        - items/mooncake/lianrong_mooncake
+    events:
+      eat:
+        feed:
+          amount: 8
+          saturation: 6
+        potion_effect:
+            type: LUCK
+            duration: 400
+            amplifier: 1
+  slime_mooncake:
+    display_name: "&a史莱姆月饼"
+    resource:
+      generate: true
+      material: APPLE
+      textures:
+        - items/mooncake/slime_mooncake
+    events:
+      eat:
+        feed:
+          amount: 8
+          saturation: 6
+        play_particle:
+          name: "SLIME"
+  wuren_mooncake:
+    display_name: "&6五仁月饼"
+    resource:
+      generate: true
+      material: APPLE
+      textures:
+        - items/mooncake/wuren_mooncake
+    events:
+      eat:
+        feed:
+          amount: 8
+          saturation: 6
+        potion_effect:
+            type: LUCK
+            duration: 400
+            amplifier: 1
+
+
+recipes:
+  crafting_table:
+    mooncake:
+      enabled: true
+      pattern:
+        - SSS
+        - CTC
+        - SSS
+      ingredients:
+        S: WHEAT
+        C: EGG
+        T: SWEET_BERRIES
+      result:
+        item: hammeritem:mooncake
+        amount: 1
+    flat_mooncake:
+      enabled: true
+      pattern:
+        - SSS
+        - CTC
+        - SSS
+      ingredients:
+        S: WHEAT
+        C: EGG
+        T: SWEET_BERRIES
+      result:
+        item: hammeritem:flat_mooncake
+        amount: 1
+    chorus_mooncake:
+      enabled: true
+      pattern:
+        - SSS
+        - CTC
+        - SSS
+      ingredients:
+        S: WHEAT
+        C: EGG
+        T: CHORUS_FRUIT
+      result:
+        item: hammeritem:chorus_mooncake
+        amount: 1
+    cpk_mooncake:
+      enabled: true
+      pattern:
+        - SSS
+        - CTC
+        - SSS
+      ingredients:
+        S: WHEAT
+        C: EGG
+        T: PLAYER_HEAD
+      result:
+        item: hammeritem:cpk_mooncake
+        amount: 1
+    diamond_mooncake:
+      enabled: true
+      pattern:
+        - SSS
+        - CTC
+        - SSS
+      ingredients:
+        S: WHEAT
+        C: EGG
+        T: DIAMOND
+      result:
+        item: hammeritem:diamond_mooncake
+        amount: 1
+    emerald_mooncake:
+      enabled: true
+      pattern:
+        - SSS
+        - CTC
+        - SSS
+      ingredients:
+        S: WHEAT
+        C: EGG
+        T: EMERALD
+      result:
+        item: hammeritem:emerald_mooncake
+        amount: 1
+    gold_mooncake:
+      enabled: true
+      pattern:
+        - SSS
+        - CTC
+        - SSS
+      ingredients:
+        S: WHEAT
+        C: EGG
+        T: GOLD_INGOT
+      result:
+        item: hammeritem:gold_mooncake
+        amount: 1
+    honey_mooncake:
+      enabled: true
+      pattern:
+        - SSS
+        - CTC
+        - SSS
+      ingredients:
+        S: WHEAT
+        C: EGG
+        T: HONEY_BOTTLE
+      result:
+        item: hammeritem:honey_mooncake
+        amount: 1
+    ice_mooncake:
+      enabled: true
+      pattern:
+        - SSS
+        - CTC
+        - SSS
+      ingredients:
+        S: WHEAT
+        C: EGG
+        T: BLUE_ICE
+      result:
+        item: hammeritem:ice_mooncake
+        amount: 1
+    slime_mooncake:
+      enabled: true
+      pattern:
+        - SSS
+        - CTC
+        - SSS
+      ingredients:
+        S: WHEAT
+        C: EGG
+        T: SLIME_BALL
+      result:
+        item: hammeritem:slime_mooncake
+        amount: 1
+    chocolate_mooncake:
+      enabled: true
+      pattern:
+        - SSS
+        - CTC
+        - SSS
+      ingredients:
+        S: WHEAT
+        C: EGG
+        T: COCOA_BEANS
+      result:
+        item: hammeritem:chocolate_mooncake
+        amount: 1
+    dousha_mooncake:
+      enabled: true
+      pattern:
+        - SSS
+        - CTC
+        - SSS
+      ingredients:
+        S: WHEAT
+        C: EGG
+        T: NETHER_WART
+      result:
+        item: hammeritem:dousha_mooncake
+        amount: 1
+    wuren_mooncake:
+      enabled: true
+      pattern:
+        - SSS
+        - CTC
+        - SSS
+      ingredients:
+        S: WHEAT
+        C: EGG
+        T: PUMPKIN_SEEDS
+      result:
+        item: hammeritem:wuren_mooncake
+        amount: 1
+    lianrong_mooncake:
+      enabled: true
+      pattern:
+        - SSS
+        - CTC
+        - SSS
+      ingredients:
+        S: WHEAT
+        C: EGG
+        T: LILY_PAD
+      result:
+        item: hammeritem:lianrong_mooncake
+        amount: 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

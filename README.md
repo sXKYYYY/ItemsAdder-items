@@ -3,7 +3,17 @@
 
 ## 目录
 
+* chinesestyle：中式方块与家具（来源于群青 mod）
+* customcrops：自定义农作物（来源于原农场插件）
+* hammerfurniture：家具、园艺等
+* hammerimage：用于自定义 font 替代文本（*不开放修改*）
+* hammeritem：由 TRIALHAMMER 成员创建的自定义物品（*不开放修改*）
+
 ## 参与
+
+参与本仓库的维护需要了解一定的 ItemsAdder 前置知识，尤其是配置文件撰写方式。
+
+请 fork 本仓库后进行修改，并通过 pull request 向上游提交。
 
 ## 授权
 

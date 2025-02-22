@@ -1,0 +1,212 @@
+info:
+  namespace: hammerfurniture
+recipes:
+  crafting_table:
+    white_bar_chair:
+      permission: hammerfurniture.bar_chairs.white_bar_chair
+      enabled: true
+      pattern:
+        - WWW
+        - XBX
+        - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: WHITE_WOOL
+      result:
+        item: hammerfurniture:white_bar_chair
+        amount: 1
+    orange_bar_chair:
+      permission: hammerfurniture.bar_chairs.orange_bar_chair
+      enabled: true
+      pattern:
+        - WWW
+        - XBX
+        - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: ORANGE_WOOL
+      result:
+        item: hammerfurniture:orange_bar_chair
+        amount: 1
+    magenta_bar_chair:
+      permission: hammerfurniture.bar_chairs.magenta_bar_chair
+      enabled: true
+      pattern:
+        - WWW
+        - XBX
+        - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: MAGENTA_WOOL
+      result:
+        item: hammerfurniture:magenta_bar_chair
+        amount: 1
+    light_blue_bar_chair:
+      permission: hammerfurniture.bar_chairs.light_blue_bar_chair
+      enabled: true
+      pattern:
+        - WWW
+        - XBX
+        - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: LIGHT_BLUE_WOOL
+      result:
+        item: hammerfurniture:light_blue_bar_chair
+        amount: 1
+    yellow_bar_chair:
+      permission: hammerfurniture.bar_chairs.yellow_bar_chair
+      enabled: true
+      pattern:
+        - WWW
+        - XBX
+        - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: YELLOW_WOOL
+      result:
+        item: hammerfurniture:yellow_bar_chair
+        amount: 1
+    lime_bar_chair:
+      permission: hammerfurniture.bar_chairs.lime_bar_chair
+      enabled: true
+      pattern:
+        - WWW
+        - XBX
+        - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: LIME_WOOL
+      result:
+        item: hammerfurniture:lime_bar_chair
+        amount: 1
+    pink_bar_chair:
+      permission: hammerfurniture.bar_chairs.pink_bar_chair
+      enabled: true
+      pattern:
+        - WWW
+        - XBX
+        - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: PINK_WOOL
+      result:
+        item: hammerfurniture:pink_bar_chair
+        amount: 1
+    gray_bar_chair:
+      permission: hammerfurniture.bar_chairs.gray_bar_chair
+      enabled: true
+      pattern:
+        - WWW
+        - XBX
+        - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: GRAY_WOOL
+      result:
+        item: hammerfurniture:gray_bar_chair
+        amount: 1
+    light_gray_bar_chair:
+      permission: hammerfurniture.bar_chairs.light_gray_bar_chair
+      enabled: true
+      pattern:
+        - WWW
+        - XBX
+        - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: LIGHT_GRAY_WOOL
+      result:
+        item: hammerfurniture:light_gray_bar_chair
+        amount: 1
+    cyan_bar_chair:
+      permission: hammerfurniture.bar_chairs.cyan_bar_chair
+      enabled: true
+      pattern:
+        - WWW
+        - XBX
+        - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: CYAN_WOOL
+      result:
+        item: hammerfurniture:cyan_bar_chair
+        amount: 1
+    purple_bar_chair:
+      permission: hammerfurniture.bar_chairs.purple_bar_chair
+      enabled: true
+      pattern:
+        - WWW
+        - XBX
+        - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: PURPLE_WOOL
+      result:
+        item: hammerfurniture:purple_bar_chair
+        amount: 1
+    blue_bar_chair:
+      permission: hammerfurniture.bar_chairs.blue_bar_chair
+      enabled: true
+      pattern:
+        - WWW
+        - XBX
+        - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: BLUE_WOOL
+      result:
+        item: hammerfurniture:blue_bar_chair
+        amount: 1
+    brown_bar_chair:
+      permission: hammerfurniture.bar_chairs.brown_bar_chair
+      enabled: true
+      pattern:
+        - WWW
+        - XBX
+        - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: BROWN_WOOL
+      result:
+        item: hammerfurniture:brown_bar_chair
+        amount: 1
+    green_bar_chair:
+      permission: hammerfurniture.bar_chairs.green_bar_chair
+      enabled: true
+      pattern:
+        - WWW
+        - XBX
+        - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: GREEN_WOOL
+      result:
+        item: hammerfurniture:green_bar_chair
+        amount: 1
+    red_bar_chair:
+      permission: hammerfurniture.bar_chairs.red_bar_chair
+      enabled: true
+      pattern:
+        - WWW
+        - XBX
+        - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: RED_WOOL
+      result:
+        item: hammerfurniture:red_bar_chair
+        amount: 1
+    black_bar_chair:
+      permission: hammerfurniture.bar_chairs.black_bar_chair
+      enabled: true
+      pattern:
+        - WWW
+        - XBX
+        - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: BLACK_WOOL
+      result:
+        item: hammerfurniture:black_bar_chair
+        amount: 1

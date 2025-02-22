@@ -1,0 +1,11 @@
+info:
+  namespace: hammerfurniture
+items:
+  cut_spruce_log:
+    enabled: true
+    display_name: display-name-cut_spruce_log
+    permission: hammerfurniture.ingredients.cut_spruce_log
+    resource:
+      material: STICK
+      generate: false
+      model_path: iadeco/item/cut_spruce_log

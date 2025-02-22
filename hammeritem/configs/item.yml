@@ -1,0 +1,99 @@
+info:
+  namespace: hammeritem
+items:
+  fossil:
+    enabled: true
+    display_name: display-name-fossil
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+        - items/fossil/fossil
+  plastic:
+    enabled: true
+    display_name: display-name-plastic
+    resource:
+      material: STICK
+      generate: true
+      textures:
+        - items/fossil/plastic
+  plastic_plate:
+    enabled: true
+    display_name: display-name-plastic_plate
+    resource:
+      material: STICK
+      generate: true
+      textures:
+        - items/fossil/plastic_plate
+  iron_plate:
+    enabled: true
+    display_name: display-name-iron_plate
+    resource:
+      material: STICK
+      generate: true
+      textures:
+        - items/fossil/iron_plate
+
+loots:
+  blocks:
+    stone:
+      type: STONE
+      items:
+        fossil:
+          item: hammeritem:fossil
+          min_amount: 1
+          max_amount: 2
+          chance: 5
+
+
+recipes:
+  crafting_table:
+    fossil:
+      enabled: true
+  
+      pattern:
+        - FFF
+        - FFF
+        - FFF
+      ingredients:
+        F: hammeritem:fossil
+      result:
+        item: BONE_BLOCK
+        amount: 1
+    iron_plate:
+  
+      enabled: true
+      pattern:
+        - XXX
+        - XIX
+        - XIX
+      ingredients:
+        I: IRON_INGOT
+      result:
+        item: hammeritem:iron_plate
+        amount: 1
+    plastic_plate:
+  
+      enabled: true
+      pattern:
+        - XXX
+        - XXX
+        - PPP
+      ingredients:
+        P: hammeritem:plastic
+      result:
+        item: hammeritem:plastic_plate
+        amount: 1
+  cooking:
+    plastic:
+  
+      ingredient:
+        item: hammeritem:fossil
+      machines:
+        - FURNACE
+        - BLAST_FURNACE
+      exp: 1
+      cook_time: 1200
+      result:
+        item: hammeritem:plastic
+        amount: 2

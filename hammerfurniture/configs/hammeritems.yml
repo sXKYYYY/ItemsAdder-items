@@ -1,0 +1,21 @@
+info:
+  namespace: hammerfurniture
+items:
+  suzume_s_chair:
+    display_name: "すずめの椅子"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "hammer/suzume_s_chair"
+    behaviours:
+      furniture: 
+        entity: item_frame
+        fixed_rotation: true
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 1

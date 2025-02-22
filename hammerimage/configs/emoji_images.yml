@@ -1,0 +1,1605 @@
+info:
+  namespace: "hammerimage"
+font_images:
+  0:
+    permission: 0
+    show_in_gui: true
+    path: "hammerimage:emojis/0"
+    scale_ratio: 9
+    y_position: 8
+  1:
+    permission: 1
+    show_in_gui: true
+    path: "hammerimage:emojis/1"
+    scale_ratio: 9
+    y_position: 8
+  2:
+    permission: 2
+    show_in_gui: true
+    path: "hammerimage:emojis/2"
+    scale_ratio: 9
+    y_position: 8
+  3:
+    permission: 3
+    show_in_gui: true
+    path: "hammerimage:emojis/3"
+    scale_ratio: 9
+    y_position: 8
+  4:
+    permission: 4
+    show_in_gui: true
+    path: "hammerimage:emojis/4"
+    scale_ratio: 9
+    y_position: 8
+  5:
+    permission: 5
+    show_in_gui: true
+    path: "hammerimage:emojis/5"
+    scale_ratio: 9
+    y_position: 8
+  6:
+    permission: 6
+    show_in_gui: true
+    path: "hammerimage:emojis/6"
+    scale_ratio: 9
+    y_position: 8
+  7:
+    permission: 7
+    show_in_gui: true
+    path: "hammerimage:emojis/7"
+    scale_ratio: 9
+    y_position: 8
+  8:
+    permission: 8
+    show_in_gui: true
+    path: "hammerimage:emojis/8"
+    scale_ratio: 9
+    y_position: 8
+  9:
+    permission: 9
+    show_in_gui: true
+    path: "hammerimage:emojis/9"
+    scale_ratio: 9
+    y_position: 8
+  alarmclock:
+    permission: alarmclock
+    show_in_gui: true
+    path: "hammerimage:emojis/alarmclock"
+    scale_ratio: 9
+    y_position: 8
+  alien:
+    permission: alien
+    show_in_gui: true
+    path: "hammerimage:emojis/alien"
+    scale_ratio: 9
+    y_position: 8
+  angry:
+    permission: angry
+    show_in_gui: true
+    path: "hammerimage:emojis/angry"
+    scale_ratio: 9
+    y_position: 8
+  angry1:
+    permission: angry1
+    show_in_gui: true
+    path: "hammerimage:emojis/angry1"
+    scale_ratio: 9
+    y_position: 8
+  angry2:
+    permission: angry2
+    show_in_gui: true
+    path: "hammerimage:emojis/angry2"
+    scale_ratio: 9
+    y_position: 8
+  angry3:
+    permission: angry3
+    show_in_gui: true
+    path: "hammerimage:emojis/angry3"
+    scale_ratio: 9
+    y_position: 8
+  anxious:
+    permission: anxious
+    show_in_gui: true
+    path: "hammerimage:emojis/anxious"
+    scale_ratio: 9
+    y_position: 8
+  aquarius:
+    permission: aquarius
+    show_in_gui: true
+    path: "hammerimage:emojis/aquarius"
+    scale_ratio: 9
+    y_position: 8
+  aries:
+    permission: aries
+    show_in_gui: true
+    path: "hammerimage:emojis/aries"
+    scale_ratio: 9
+    y_position: 8
+  asterisk:
+    permission: asterisk
+    show_in_gui: true
+    path: "hammerimage:emojis/asterisk"
+    scale_ratio: 9
+    y_position: 8
+  atm:
+    permission: atm
+    show_in_gui: true
+    path: "hammerimage:emojis/atm"
+    scale_ratio: 9
+    y_position: 8
+  avocado:
+    permission: avocado
+    show_in_gui: true
+    path: "hammerimage:emojis/avocado"
+    scale_ratio: 9
+    y_position: 8
+  bacon:
+    permission: bacon
+    show_in_gui: true
+    path: "hammerimage:emojis/bacon"
+    scale_ratio: 9
+    y_position: 8
+  baguette:
+    permission: baguette
+    show_in_gui: true
+    path: "hammerimage:emojis/baguette"
+    scale_ratio: 9
+    y_position: 8
+  bandage:
+    permission: bandage
+    show_in_gui: true
+    path: "hammerimage:emojis/bandage"
+    scale_ratio: 9
+    y_position: 8
+  bat:
+    permission: bat
+    show_in_gui: true
+    path: "hammerimage:emojis/bat"
+    scale_ratio: 9
+    y_position: 8
+  biceps:
+    permission: biceps
+    show_in_gui: true
+    path: "hammerimage:emojis/biceps"
+    scale_ratio: 9
+    y_position: 8
+  biohazard:
+    permission: biohazard
+    show_in_gui: true
+    path: "hammerimage:emojis/biohazard"
+    scale_ratio: 9
+    y_position: 8
+  blocked:
+    permission: blocked
+    show_in_gui: true
+    path: "hammerimage:emojis/blocked"
+    scale_ratio: 9
+    y_position: 8
+  blood:
+    permission: blood
+    show_in_gui: true
+    path: "hammerimage:emojis/blood"
+    scale_ratio: 9
+    y_position: 8
+  blush:
+    permission: blush
+    show_in_gui: true
+    path: "hammerimage:emojis/blush"
+    scale_ratio: 9
+    y_position: 8
+  bye:
+    permission: bye
+    show_in_gui: true
+    path: "hammerimage:emojis/bye"
+    scale_ratio: 9
+    y_position: 8
+  callme:
+    permission: callme
+    show_in_gui: true
+    path: "hammerimage:emojis/callme"
+    scale_ratio: 9
+    y_position: 8
+  cancel:
+    permission: cancel
+    show_in_gui: true
+    path: "hammerimage:emojis/cancel"
+    scale_ratio: 9
+    y_position: 8
+  cancer:
+    permission: cancer
+    show_in_gui: true
+    path: "hammerimage:emojis/cancer"
+    scale_ratio: 9
+    y_position: 8
+  capricorn:
+    permission: capricorn
+    show_in_gui: true
+    path: "hammerimage:emojis/capricorn"
+    scale_ratio: 9
+    y_position: 8
+  carrot:
+    permission: carrot
+    show_in_gui: true
+    path: "hammerimage:emojis/carrot"
+    scale_ratio: 9
+    y_position: 8
+  chair:
+    permission: chair
+    show_in_gui: true
+    path: "hammerimage:emojis/chair"
+    scale_ratio: 9
+    y_position: 8
+  chick:
+    permission: chick
+    show_in_gui: true
+    path: "hammerimage:emojis/chick"
+    scale_ratio: 9
+    y_position: 8
+  chick1:
+    permission: chick1
+    show_in_gui: true
+    path: "hammerimage:emojis/chick1"
+    scale_ratio: 9
+    y_position: 8
+  chick2:
+    permission: chick2
+    show_in_gui: true
+    path: "hammerimage:emojis/chick2"
+    scale_ratio: 9
+    y_position: 8
+  clap:
+    permission: clap
+    show_in_gui: true
+    path: "hammerimage:emojis/clap"
+    scale_ratio: 9
+    y_position: 8
+  coffin:
+    permission: coffin
+    show_in_gui: true
+    path: "hammerimage:emojis/coffin"
+    scale_ratio: 9
+    y_position: 8
+  cold:
+    permission: cold
+    show_in_gui: true
+    path: "hammerimage:emojis/cold"
+    scale_ratio: 9
+    y_position: 8
+  confirm:
+    permission: confirm
+    show_in_gui: true
+    path: "hammerimage:emojis/confirm"
+    scale_ratio: 9
+    y_position: 8
+  confused:
+    permission: confused
+    show_in_gui: true
+    path: "hammerimage:emojis/confused"
+    scale_ratio: 9
+    y_position: 8
+  confused1:
+    permission: confused1
+    show_in_gui: true
+    path: "hammerimage:emojis/confused1"
+    scale_ratio: 9
+    y_position: 8
+  couple:
+    permission: couple
+    show_in_gui: true
+    path: "hammerimage:emojis/couple"
+    scale_ratio: 9
+    y_position: 8
+  cowboy:
+    permission: cowboy
+    show_in_gui: true
+    path: "hammerimage:emojis/cowboy"
+    scale_ratio: 9
+    y_position: 8
+  crab:
+    permission: crab
+    show_in_gui: true
+    path: "hammerimage:emojis/crab"
+    scale_ratio: 9
+    y_position: 8
+  croissant:
+    permission: croissant
+    show_in_gui: true
+    path: "hammerimage:emojis/croissant"
+    scale_ratio: 9
+    y_position: 8
+  crossedfingers:
+    permission: crossedfingers
+    show_in_gui: true
+    path: "hammerimage:emojis/crossedfingers"
+    scale_ratio: 9
+    y_position: 8
+  cry:
+    permission: cry
+    show_in_gui: true
+    path: "hammerimage:emojis/cry"
+    scale_ratio: 9
+    y_position: 8
+  cry1:
+    permission: cry1
+    show_in_gui: true
+    path: "hammerimage:emojis/cry1"
+    scale_ratio: 9
+    y_position: 8
+  crycat:
+    permission: crycat
+    show_in_gui: true
+    path: "hammerimage:emojis/crycat"
+    scale_ratio: 9
+    y_position: 8
+  cucumber:
+    permission: cucumber
+    show_in_gui: true
+    path: "hammerimage:emojis/cucumber"
+    scale_ratio: 9
+    y_position: 8
+  dead:
+    permission: dead
+    show_in_gui: true
+    path: "hammerimage:emojis/dead"
+    scale_ratio: 9
+    y_position: 8
+  dead1:
+    permission: dead1
+    show_in_gui: true
+    path: "hammerimage:emojis/dead1"
+    scale_ratio: 9
+    y_position: 8
+  dollar:
+    permission: dollar
+    show_in_gui: true
+    path: "hammerimage:emojis/dollar"
+    scale_ratio: 9
+    y_position: 8
+  doubleexclamation:
+    permission: doubleexclamation
+    show_in_gui: true
+    path: "hammerimage:emojis/doubleexclamation"
+    scale_ratio: 9
+    y_position: 8
+  down:
+    permission: down
+    show_in_gui: true
+    path: "hammerimage:emojis/down"
+    scale_ratio: 9
+    y_position: 8
+  drops:
+    permission: drops
+    show_in_gui: true
+    path: "hammerimage:emojis/drops"
+    scale_ratio: 9
+    y_position: 8
+  drumstick:
+    permission: drumstick
+    show_in_gui: true
+    path: "hammerimage:emojis/drumstick"
+    scale_ratio: 9
+    y_position: 8
+  duck:
+    permission: duck
+    show_in_gui: true
+    path: "hammerimage:emojis/duck"
+    scale_ratio: 9
+    y_position: 8
+  eagle:
+    permission: eagle
+    show_in_gui: true
+    path: "hammerimage:emojis/eagle"
+    scale_ratio: 9
+    y_position: 8
+  eggplant:
+    permission: eggplant
+    show_in_gui: true
+    path: "hammerimage:emojis/eggplant"
+    scale_ratio: 9
+    y_position: 8
+  eject:
+    permission: eject
+    show_in_gui: true
+    path: "hammerimage:emojis/eject"
+    scale_ratio: 9
+    y_position: 8
+  evil:
+    permission: evil
+    show_in_gui: true
+    path: "hammerimage:emojis/evil"
+    scale_ratio: 9
+    y_position: 8
+  explodehead:
+    permission: explodehead
+    show_in_gui: true
+    path: "hammerimage:emojis/explodehead"
+    scale_ratio: 9
+    y_position: 8
+  eyes:
+    permission: eyes
+    show_in_gui: true
+    path: "hammerimage:emojis/eyes"
+    scale_ratio: 9
+    y_position: 8
+  facemask:
+    permission: facemask
+    show_in_gui: true
+    path: "hammerimage:emojis/facemask"
+    scale_ratio: 9
+    y_position: 8
+  fastdown:
+    permission: fastdown
+    show_in_gui: true
+    path: "hammerimage:emojis/fastdown"
+    scale_ratio: 9
+    y_position: 8
+  fastforward:
+    permission: fastforward
+    show_in_gui: true
+    path: "hammerimage:emojis/fastforward"
+    scale_ratio: 9
+    y_position: 8
+  fastreverse:
+    permission: fastreverse
+    show_in_gui: true
+    path: "hammerimage:emojis/fastreverse"
+    scale_ratio: 9
+    y_position: 8
+  fastup:
+    permission: fastup
+    show_in_gui: true
+    path: "hammerimage:emojis/fastup"
+    scale_ratio: 9
+    y_position: 8
+  fbowing:
+    permission: fbowing
+    show_in_gui: true
+    path: "hammerimage:emojis/fbowing"
+    scale_ratio: 9
+    y_position: 8
+  fear:
+    permission: fear
+    show_in_gui: true
+    path: "hammerimage:emojis/fear"
+    scale_ratio: 9
+    y_position: 8
+  fear1:
+    permission: fear1
+    show_in_gui: true
+    path: "hammerimage:emojis/fear1"
+    scale_ratio: 9
+    y_position: 8
+  fear3:
+    permission: fear3
+    show_in_gui: true
+    path: "hammerimage:emojis/fear3"
+    scale_ratio: 9
+    y_position: 8
+  featcat:
+    permission: featcat
+    show_in_gui: true
+    path: "hammerimage:emojis/featcat"
+    scale_ratio: 9
+    y_position: 8
+  ffacepalm:
+    permission: ffacepalm
+    show_in_gui: true
+    path: "hammerimage:emojis/ffacepalm"
+    scale_ratio: 9
+    y_position: 8
+  fidk:
+    permission: fidk
+    show_in_gui: true
+    path: "hammerimage:emojis/fidk"
+    scale_ratio: 9
+    y_position: 8
+  finger:
+    permission: finger
+    show_in_gui: true
+    path: "hammerimage:emojis/finger"
+    scale_ratio: 9
+    y_position: 8
+  fire:
+    permission: fire
+    show_in_gui: true
+    path: "hammerimage:emojis/fire"
+    scale_ratio: 9
+    y_position: 8
+  fish:
+    permission: fish
+    show_in_gui: true
+    path: "hammerimage:emojis/fish"
+    scale_ratio: 9
+    y_position: 8
+  flamingo:
+    permission: flamingo
+    show_in_gui: true
+    path: "hammerimage:emojis/flamingo"
+    scale_ratio: 9
+    y_position: 8
+  fmage:
+    permission: fmage
+    show_in_gui: true
+    path: "hammerimage:emojis/fmage"
+    scale_ratio: 9
+    y_position: 8
+  fno:
+    permission: fno
+    show_in_gui: true
+    path: "hammerimage:emojis/fno"
+    scale_ratio: 9
+    y_position: 8
+  fok:
+    permission: fok
+    show_in_gui: true
+    path: "hammerimage:emojis/fok"
+    scale_ratio: 9
+    y_position: 8
+  frown:
+    permission: frown
+    show_in_gui: true
+    path: "hammerimage:emojis/frown"
+    scale_ratio: 9
+    y_position: 8
+  frown2:
+    permission: frown2
+    show_in_gui: true
+    path: "hammerimage:emojis/frown2"
+    scale_ratio: 9
+    y_position: 8
+  frown3:
+    permission: frown3
+    show_in_gui: true
+    path: "hammerimage:emojis/frown3"
+    scale_ratio: 9
+    y_position: 8
+  frown4:
+    permission: frown4
+    show_in_gui: true
+    path: "hammerimage:emojis/frown4"
+    scale_ratio: 9
+    y_position: 8
+  frown5:
+    permission: frown5
+    show_in_gui: true
+    path: "hammerimage:emojis/frown5"
+    scale_ratio: 9
+    y_position: 8
+  frown6:
+    permission: frown6
+    show_in_gui: true
+    path: "hammerimage:emojis/frown6"
+    scale_ratio: 9
+    y_position: 8
+  gemini:
+    permission: gemini
+    show_in_gui: true
+    path: "hammerimage:emojis/gemini"
+    scale_ratio: 9
+    y_position: 8
+  giraffe:
+    permission: giraffe
+    show_in_gui: true
+    path: "hammerimage:emojis/giraffe"
+    scale_ratio: 9
+    y_position: 8
+  halo:
+    permission: halo
+    show_in_gui: true
+    path: "hammerimage:emojis/halo"
+    scale_ratio: 9
+    y_position: 8
+  hamburger:
+    permission: hamburger
+    show_in_gui: true
+    path: "hammerimage:emojis/hamburger"
+    scale_ratio: 9
+    y_position: 8
+  handshake:
+    permission: handshake
+    show_in_gui: true
+    path: "hammerimage:emojis/handshake"
+    scale_ratio: 9
+    y_position: 8
+  hashtag:
+    permission: hashtag
+    show_in_gui: true
+    path: "hammerimage:emojis/hashtag"
+    scale_ratio: 9
+    y_position: 8
+  heart:
+    permission: heart
+    show_in_gui: true
+    path: "hammerimage:emojis/heart"
+    scale_ratio: 9
+    y_position: 8
+  heart1:
+    permission: heart1
+    show_in_gui: true
+    path: "hammerimage:emojis/heart1"
+    scale_ratio: 9
+    y_position: 8
+  heart2:
+    permission: heart2
+    show_in_gui: true
+    path: "hammerimage:emojis/heart2"
+    scale_ratio: 9
+    y_position: 8
+  heart3:
+    permission: heart3
+    show_in_gui: true
+    path: "hammerimage:emojis/heart3"
+    scale_ratio: 9
+    y_position: 8
+  heart4:
+    permission: heart4
+    show_in_gui: true
+    path: "hammerimage:emojis/heart4"
+    scale_ratio: 9
+    y_position: 8
+  heart5:
+    permission: heart5
+    show_in_gui: true
+    path: "hammerimage:emojis/heart5"
+    scale_ratio: 9
+    y_position: 8
+  heart6:
+    permission: heart6
+    show_in_gui: true
+    path: "hammerimage:emojis/heart6"
+    scale_ratio: 9
+    y_position: 8
+  hehe:
+    permission: hehe
+    show_in_gui: true
+    path: "hammerimage:emojis/hehe"
+    scale_ratio: 9
+    y_position: 8
+  hot:
+    permission: hot
+    show_in_gui: true
+    path: "hammerimage:emojis/hot"
+    scale_ratio: 9
+    y_position: 8
+  hourglass:
+    permission: hourglass
+    show_in_gui: true
+    path: "hammerimage:emojis/hourglass"
+    scale_ratio: 9
+    y_position: 8
+  hourglass1:
+    permission: hourglass1
+    show_in_gui: true
+    path: "hammerimage:emojis/hourglass1"
+    scale_ratio: 9
+    y_position: 8
+  hug:
+    permission: hug
+    show_in_gui: true
+    path: "hammerimage:emojis/hug"
+    scale_ratio: 9
+    y_position: 8
+  ice:
+    permission: ice
+    show_in_gui: true
+    path: "hammerimage:emojis/ice"
+    scale_ratio: 9
+    y_position: 8
+  ill:
+    permission: ill
+    show_in_gui: true
+    path: "hammerimage:emojis/ill"
+    scale_ratio: 9
+    y_position: 8
+  inlove:
+    permission: inlove
+    show_in_gui: true
+    path: "hammerimage:emojis/inlove"
+    scale_ratio: 9
+    y_position: 8
+  inlove1:
+    permission: inlove1
+    show_in_gui: true
+    path: "hammerimage:emojis/inlove1"
+    scale_ratio: 9
+    y_position: 8
+  inlovecat:
+    permission: inlovecat
+    show_in_gui: true
+    path: "hammerimage:emojis/inlovecat"
+    scale_ratio: 9
+    y_position: 8
+  jackolantern:
+    permission: jackolantern
+    show_in_gui: true
+    path: "hammerimage:emojis/jackolantern"
+    scale_ratio: 9
+    y_position: 8
+  kebab:
+    permission: kebab
+    show_in_gui: true
+    path: "hammerimage:emojis/kebab"
+    scale_ratio: 9
+    y_position: 8
+  kiss:
+    permission: kiss
+    show_in_gui: true
+    path: "hammerimage:emojis/kiss"
+    scale_ratio: 9
+    y_position: 8
+  kiss1:
+    permission: kiss1
+    show_in_gui: true
+    path: "hammerimage:emojis/kiss1"
+    scale_ratio: 9
+    y_position: 8
+  kiss2:
+    permission: kiss2
+    show_in_gui: true
+    path: "hammerimage:emojis/kiss2"
+    scale_ratio: 9
+    y_position: 8
+  kiss3:
+    permission: kiss3
+    show_in_gui: true
+    path: "hammerimage:emojis/kiss3"
+    scale_ratio: 9
+    y_position: 8
+  lasttrack:
+    permission: lasttrack
+    show_in_gui: true
+    path: "hammerimage:emojis/lasttrack"
+    scale_ratio: 9
+    y_position: 8
+  laugh:
+    permission: laugh
+    show_in_gui: true
+    path: "hammerimage:emojis/laugh"
+    scale_ratio: 9
+    y_position: 8
+  laugh2:
+    permission: laugh2
+    show_in_gui: true
+    path: "hammerimage:emojis/laugh2"
+    scale_ratio: 9
+    y_position: 8
+  laugh3:
+    permission: laugh3
+    show_in_gui: true
+    path: "hammerimage:emojis/laugh3"
+    scale_ratio: 9
+    y_position: 8
+  laugh4:
+    permission: laugh4
+    show_in_gui: true
+    path: "hammerimage:emojis/laugh4"
+    scale_ratio: 9
+    y_position: 8
+  laughcat:
+    permission: laughcat
+    show_in_gui: true
+    path: "hammerimage:emojis/laughcat"
+    scale_ratio: 9
+    y_position: 8
+  left:
+    permission: left
+    show_in_gui: true
+    path: "hammerimage:emojis/left"
+    scale_ratio: 9
+    y_position: 8
+  leftcurve:
+    permission: leftcurve
+    show_in_gui: true
+    path: "hammerimage:emojis/leftcurve"
+    scale_ratio: 9
+    y_position: 8
+  leo:
+    permission: leo
+    show_in_gui: true
+    path: "hammerimage:emojis/leo"
+    scale_ratio: 9
+    y_position: 8
+  lion:
+    permission: lion
+    show_in_gui: true
+    path: "hammerimage:emojis/lion"
+    scale_ratio: 9
+    y_position: 8
+  lock:
+    permission: lock
+    show_in_gui: true
+    path: "hammerimage:emojis/lock"
+    scale_ratio: 9
+    y_position: 8
+  luck:
+    permission: luck
+    show_in_gui: true
+    path: "hammerimage:emojis/luck"
+    scale_ratio: 9
+    y_position: 8
+  lying:
+    permission: lying
+    show_in_gui: true
+    path: "hammerimage:emojis/lying"
+    scale_ratio: 9
+    y_position: 8
+  m:
+    permission: m
+    show_in_gui: true
+    path: "hammerimage:emojis/m"
+    scale_ratio: 9
+    y_position: 8
+  mad:
+    permission: mad
+    show_in_gui: true
+    path: "hammerimage:emojis/mad"
+    scale_ratio: 9
+    y_position: 8
+  mbowing:
+    permission: mbowing
+    show_in_gui: true
+    path: "hammerimage:emojis/mbowing"
+    scale_ratio: 9
+    y_position: 8
+  medal:
+    permission: medal
+    show_in_gui: true
+    path: "hammerimage:emojis/medal"
+    scale_ratio: 9
+    y_position: 8
+  mfacepalm:
+    permission: mfacepalm
+    show_in_gui: true
+    path: "hammerimage:emojis/mfacepalm"
+    scale_ratio: 9
+    y_position: 8
+  midk:
+    permission: midk
+    show_in_gui: true
+    path: "hammerimage:emojis/midk"
+    scale_ratio: 9
+    y_position: 8
+  mmage:
+    permission: mmage
+    show_in_gui: true
+    path: "hammerimage:emojis/mmage"
+    scale_ratio: 9
+    y_position: 8
+  mmh:
+    permission: mmh
+    show_in_gui: true
+    path: "hammerimage:emojis/mmh"
+    scale_ratio: 9
+    y_position: 8
+  mno:
+    permission: mno
+    show_in_gui: true
+    path: "hammerimage:emojis/mno"
+    scale_ratio: 9
+    y_position: 8
+  mok:
+    permission: mok
+    show_in_gui: true
+    path: "hammerimage:emojis/mok"
+    scale_ratio: 9
+    y_position: 8
+  money:
+    permission: money
+    show_in_gui: true
+    path: "hammerimage:emojis/money"
+    scale_ratio: 9
+    y_position: 8
+  moneyface:
+    permission: moneyface
+    show_in_gui: true
+    path: "hammerimage:emojis/moneyface"
+    scale_ratio: 9
+    y_position: 8
+  monkey1:
+    permission: monkey1
+    show_in_gui: true
+    path: "hammerimage:emojis/monkey1"
+    scale_ratio: 9
+    y_position: 8
+  monkey2:
+    permission: monkey2
+    show_in_gui: true
+    path: "hammerimage:emojis/monkey2"
+    scale_ratio: 9
+    y_position: 8
+  monkey3:
+    permission: monkey3
+    show_in_gui: true
+    path: "hammerimage:emojis/monkey3"
+    scale_ratio: 9
+    y_position: 8
+  monocle:
+    permission: monocle
+    show_in_gui: true
+    path: "hammerimage:emojis/monocle"
+    scale_ratio: 9
+    y_position: 8
+  moon:
+    permission: moon
+    show_in_gui: true
+    path: "hammerimage:emojis/moon"
+    scale_ratio: 9
+    y_position: 8
+  moon1:
+    permission: moon1
+    show_in_gui: true
+    path: "hammerimage:emojis/moon1"
+    scale_ratio: 9
+    y_position: 8
+  moon2:
+    permission: moon2
+    show_in_gui: true
+    path: "hammerimage:emojis/moon2"
+    scale_ratio: 9
+    y_position: 8
+  moon3:
+    permission: moon3
+    show_in_gui: true
+    path: "hammerimage:emojis/moon3"
+    scale_ratio: 9
+    y_position: 8
+  moon4:
+    permission: moon4
+    show_in_gui: true
+    path: "hammerimage:emojis/moon4"
+    scale_ratio: 9
+    y_position: 8
+  moon5:
+    permission: moon5
+    show_in_gui: true
+    path: "hammerimage:emojis/moon5"
+    scale_ratio: 9
+    y_position: 8
+  nausea:
+    permission: nausea
+    show_in_gui: true
+    path: "hammerimage:emojis/nausea"
+    scale_ratio: 9
+    y_position: 8
+  nerd:
+    permission: nerd
+    show_in_gui: true
+    path: "hammerimage:emojis/nerd"
+    scale_ratio: 9
+    y_position: 8
+  neutral:
+    permission: neutral
+    show_in_gui: true
+    path: "hammerimage:emojis/neutral"
+    scale_ratio: 9
+    y_position: 8
+  nexttrack:
+    permission: nexttrack
+    show_in_gui: true
+    path: "hammerimage:emojis/nexttrack"
+    scale_ratio: 9
+    y_position: 8
+  no1:
+    permission: no1
+    show_in_gui: true
+    path: "hammerimage:emojis/no1"
+    scale_ratio: 9
+    y_position: 8
+  noexpression:
+    permission: noexpression
+    show_in_gui: true
+    path: "hammerimage:emojis/noexpression"
+    scale_ratio: 9
+    y_position: 8
+  nomouth:
+    permission: nomouth
+    show_in_gui: true
+    path: "hammerimage:emojis/nomouth"
+    scale_ratio: 9
+    y_position: 8
+  ok:
+    permission: ok
+    show_in_gui: true
+    path: "hammerimage:emojis/ok"
+    scale_ratio: 9
+    y_position: 8
+  ok1:
+    permission: ok1
+    show_in_gui: true
+    path: "hammerimage:emojis/ok1"
+    scale_ratio: 9
+    y_position: 8
+  owl:
+    permission: owl
+    show_in_gui: true
+    path: "hammerimage:emojis/owl"
+    scale_ratio: 9
+    y_position: 8
+  pan:
+    permission: pan
+    show_in_gui: true
+    path: "hammerimage:emojis/pan"
+    scale_ratio: 9
+    y_position: 8
+  party:
+    permission: party
+    show_in_gui: true
+    path: "hammerimage:emojis/party"
+    scale_ratio: 9
+    y_position: 8
+  party1:
+    permission: party1
+    show_in_gui: true
+    path: "hammerimage:emojis/party1"
+    scale_ratio: 9
+    y_position: 8
+  pause:
+    permission: pause
+    show_in_gui: true
+    path: "hammerimage:emojis/pause"
+    scale_ratio: 9
+    y_position: 8
+  peace:
+    permission: peace
+    show_in_gui: true
+    path: "hammerimage:emojis/peace"
+    scale_ratio: 9
+    y_position: 8
+  peach:
+    permission: peach
+    show_in_gui: true
+    path: "hammerimage:emojis/peach"
+    scale_ratio: 9
+    y_position: 8
+  pencil:
+    permission: pencil
+    show_in_gui: true
+    path: "hammerimage:emojis/pencil"
+    scale_ratio: 9
+    y_position: 8
+  person:
+    permission: person
+    show_in_gui: true
+    path: "hammerimage:emojis/person"
+    scale_ratio: 9
+    y_position: 8
+  pick:
+    permission: pick
+    show_in_gui: true
+    path: "hammerimage:emojis/pick"
+    scale_ratio: 9
+    y_position: 8
+  pig:
+    permission: pig
+    show_in_gui: true
+    path: "hammerimage:emojis/pig"
+    scale_ratio: 9
+    y_position: 8
+  pisces:
+    permission: pisces
+    show_in_gui: true
+    path: "hammerimage:emojis/pisces"
+    scale_ratio: 9
+    y_position: 8
+  pizza:
+    permission: pizza
+    show_in_gui: true
+    path: "hammerimage:emojis/pizza"
+    scale_ratio: 9
+    y_position: 8
+  play:
+    permission: play
+    show_in_gui: true
+    path: "hammerimage:emojis/play"
+    scale_ratio: 9
+    y_position: 8
+  playpause:
+    permission: playpause
+    show_in_gui: true
+    path: "hammerimage:emojis/playpause"
+    scale_ratio: 9
+    y_position: 8
+  please:
+    permission: please
+    show_in_gui: true
+    path: "hammerimage:emojis/please"
+    scale_ratio: 9
+    y_position: 8
+  poo:
+    permission: poo
+    show_in_gui: true
+    path: "hammerimage:emojis/poo"
+    scale_ratio: 9
+    y_position: 8
+  potato:
+    permission: potato
+    show_in_gui: true
+    path: "hammerimage:emojis/potato"
+    scale_ratio: 9
+    y_position: 8
+  puke:
+    permission: puke
+    show_in_gui: true
+    path: "hammerimage:emojis/puke"
+    scale_ratio: 9
+    y_position: 8
+  punch:
+    permission: punch
+    show_in_gui: true
+    path: "hammerimage:emojis/punch"
+    scale_ratio: 9
+    y_position: 8
+  question:
+    permission: question
+    show_in_gui: true
+    path: "hammerimage:emojis/question"
+    scale_ratio: 9
+    y_position: 8
+  radioactive:
+    permission: radioactive
+    show_in_gui: true
+    path: "hammerimage:emojis/radioactive"
+    scale_ratio: 9
+    y_position: 8
+  raisedfist:
+    permission: raisedfist
+    show_in_gui: true
+    path: "hammerimage:emojis/raisedfist"
+    scale_ratio: 9
+    y_position: 8
+  raisedhand:
+    permission: raisedhand
+    show_in_gui: true
+    path: "hammerimage:emojis/raisedhand"
+    scale_ratio: 9
+    y_position: 8
+  record:
+    permission: record
+    show_in_gui: true
+    path: "hammerimage:emojis/record"
+    scale_ratio: 9
+    y_position: 8
+  redcircle:
+    permission: redcircle
+    show_in_gui: true
+    path: "hammerimage:emojis/redcircle"
+    scale_ratio: 9
+    y_position: 8
+  reverse:
+    permission: reverse
+    show_in_gui: true
+    path: "hammerimage:emojis/reverse"
+    scale_ratio: 9
+    y_position: 8
+  riceball:
+    permission: riceball
+    show_in_gui: true
+    path: "hammerimage:emojis/riceball"
+    scale_ratio: 9
+    y_position: 8
+  rightarrow:
+    permission: rightarrow
+    show_in_gui: true
+    path: "hammerimage:emojis/rightarrow"
+    scale_ratio: 9
+    y_position: 8
+  rightcurve:
+    permission: rightcurve
+    show_in_gui: true
+    path: "hammerimage:emojis/rightcurve"
+    scale_ratio: 9
+    y_position: 8
+  robot:
+    permission: robot
+    show_in_gui: true
+    path: "hammerimage:emojis/robot"
+    scale_ratio: 9
+    y_position: 8
+  rock:
+    permission: rock
+    show_in_gui: true
+    path: "hammerimage:emojis/rock"
+    scale_ratio: 9
+    y_position: 8
+  rolling:
+    permission: rolling
+    show_in_gui: true
+    path: "hammerimage:emojis/rolling"
+    scale_ratio: 9
+    y_position: 8
+  rooster:
+    permission: rooster
+    show_in_gui: true
+    path: "hammerimage:emojis/rooster"
+    scale_ratio: 9
+    y_position: 8
+  sad:
+    permission: sad
+    show_in_gui: true
+    path: "hammerimage:emojis/sad"
+    scale_ratio: 9
+    y_position: 8
+  sagittarius:
+    permission: sagittarius
+    show_in_gui: true
+    path: "hammerimage:emojis/sagittarius"
+    scale_ratio: 9
+    y_position: 8
+  salad:
+    permission: salad
+    show_in_gui: true
+    path: "hammerimage:emojis/salad"
+    scale_ratio: 9
+    y_position: 8
+  salt:
+    permission: salt
+    show_in_gui: true
+    path: "hammerimage:emojis/salt"
+    scale_ratio: 9
+    y_position: 8
+  scorpio:
+    permission: scorpio
+    show_in_gui: true
+    path: "hammerimage:emojis/scorpio"
+    scale_ratio: 9
+    y_position: 8
+  scorpion:
+    permission: scorpion
+    show_in_gui: true
+    path: "hammerimage:emojis/scorpion"
+    scale_ratio: 9
+    y_position: 8
+  shark:
+    permission: shark
+    show_in_gui: true
+    path: "hammerimage:emojis/shark"
+    scale_ratio: 9
+    y_position: 8
+  shh:
+    permission: shh
+    show_in_gui: true
+    path: "hammerimage:emojis/shh"
+    scale_ratio: 9
+    y_position: 8
+  shrimp:
+    permission: shrimp
+    show_in_gui: true
+    path: "hammerimage:emojis/shrimp"
+    scale_ratio: 9
+    y_position: 8
+  sleeping:
+    permission: sleeping
+    show_in_gui: true
+    path: "hammerimage:emojis/sleeping"
+    scale_ratio: 9
+    y_position: 8
+  sleepy:
+    permission: sleepy
+    show_in_gui: true
+    path: "hammerimage:emojis/sleepy"
+    scale_ratio: 9
+    y_position: 8
+  small:
+    permission: small
+    show_in_gui: true
+    path: "hammerimage:emojis/small"
+    scale_ratio: 9
+    y_position: 8
+  smile:
+    permission: smile
+    show_in_gui: true
+    path: "hammerimage:emojis/smile"
+    scale_ratio: 9
+    y_position: 8
+  smile2:
+    permission: smile2
+    show_in_gui: true
+    path: "hammerimage:emojis/smile2"
+    scale_ratio: 9
+    y_position: 8
+  smile3:
+    permission: smile3
+    show_in_gui: true
+    path: "hammerimage:emojis/smile3"
+    scale_ratio: 9
+    y_position: 8
+  smile4:
+    permission: smile4
+    show_in_gui: true
+    path: "hammerimage:emojis/smile4"
+    scale_ratio: 9
+    y_position: 8
+  smile5:
+    permission: smile5
+    show_in_gui: true
+    path: "hammerimage:emojis/smile5"
+    scale_ratio: 9
+    y_position: 8
+  smile6:
+    permission: smile6
+    show_in_gui: true
+    path: "hammerimage:emojis/smile6"
+    scale_ratio: 9
+    y_position: 8
+  smilecat:
+    permission: smilecat
+    show_in_gui: true
+    path: "hammerimage:emojis/smilecat"
+    scale_ratio: 9
+    y_position: 8
+  sneeze:
+    permission: sneeze
+    show_in_gui: true
+    path: "hammerimage:emojis/sneeze"
+    scale_ratio: 9
+    y_position: 8
+  soccerball:
+    permission: soccerball
+    show_in_gui: true
+    path: "hammerimage:emojis/soccerball"
+    scale_ratio: 9
+    y_position: 8
+  sparkles:
+    permission: sparkles
+    show_in_gui: true
+    path: "hammerimage:emojis/sparkles"
+    scale_ratio: 9
+    y_position: 8
+  squid:
+    permission: squid
+    show_in_gui: true
+    path: "hammerimage:emojis/squid"
+    scale_ratio: 9
+    y_position: 8
+  star:
+    permission: star
+    show_in_gui: true
+    path: "hammerimage:emojis/star"
+    scale_ratio: 9
+    y_position: 8
+  starcrescent:
+    permission: starcrescent
+    show_in_gui: true
+    path: "hammerimage:emojis/starcrescent"
+    scale_ratio: 9
+    y_position: 8
+  stareyes:
+    permission: stareyes
+    show_in_gui: true
+    path: "hammerimage:emojis/stareyes"
+    scale_ratio: 9
+    y_position: 8
+  stop:
+    permission: stop
+    show_in_gui: true
+    path: "hammerimage:emojis/stop"
+    scale_ratio: 9
+    y_position: 8
+  stopsign:
+    permission: stopsign
+    show_in_gui: true
+    path: "hammerimage:emojis/stopsign"
+    scale_ratio: 9
+    y_position: 8
+  sun:
+    permission: sun
+    show_in_gui: true
+    path: "hammerimage:emojis/sun"
+    scale_ratio: 9
+    y_position: 8
+  sunglasses:
+    permission: sunglasses
+    show_in_gui: true
+    path: "hammerimage:emojis/sunglasses"
+    scale_ratio: 9
+    y_position: 8
+  surprised:
+    permission: surprised
+    show_in_gui: true
+    path: "hammerimage:emojis/surprised"
+    scale_ratio: 9
+    y_position: 8
+  sushi:
+    permission: sushi
+    show_in_gui: true
+    path: "hammerimage:emojis/sushi"
+    scale_ratio: 9
+    y_position: 8
+  sweat:
+    permission: sweat
+    show_in_gui: true
+    path: "hammerimage:emojis/sweat"
+    scale_ratio: 9
+    y_position: 8
+  taurus:
+    permission: taurus
+    show_in_gui: true
+    path: "hammerimage:emojis/taurus"
+    scale_ratio: 9
+    y_position: 8
+  think:
+    permission: think
+    show_in_gui: true
+    path: "hammerimage:emojis/think"
+    scale_ratio: 9
+    y_position: 8
+  think1:
+    permission: think1
+    show_in_gui: true
+    path: "hammerimage:emojis/think1"
+    scale_ratio: 9
+    y_position: 8
+  think2:
+    permission: think2
+    show_in_gui: true
+    path: "hammerimage:emojis/think2"
+    scale_ratio: 9
+    y_position: 8
+  think3:
+    permission: think3
+    show_in_gui: true
+    path: "hammerimage:emojis/think3"
+    scale_ratio: 9
+    y_position: 8
+  think4:
+    permission: think4
+    show_in_gui: true
+    path: "hammerimage:emojis/think4"
+    scale_ratio: 9
+    y_position: 8
+  think5:
+    permission: think5
+    show_in_gui: true
+    path: "hammerimage:emojis/think5"
+    scale_ratio: 9
+    y_position: 8
+  think6:
+    permission: think6
+    show_in_gui: true
+    path: "hammerimage:emojis/think6"
+    scale_ratio: 9
+    y_position: 8
+  tongue:
+    permission: tongue
+    show_in_gui: true
+    path: "hammerimage:emojis/tongue"
+    scale_ratio: 9
+    y_position: 8
+  tree:
+    permission: tree
+    show_in_gui: true
+    path: "hammerimage:emojis/tree"
+    scale_ratio: 9
+    y_position: 8
+  trex:
+    permission: trex
+    show_in_gui: true
+    path: "hammerimage:emojis/trex"
+    scale_ratio: 9
+    y_position: 8
+  turkey:
+    permission: turkey
+    show_in_gui: true
+    path: "hammerimage:emojis/turkey"
+    scale_ratio: 9
+    y_position: 8
+  twofingers:
+    permission: twofingers
+    show_in_gui: true
+    path: "hammerimage:emojis/twofingers"
+    scale_ratio: 9
+    y_position: 8
+  unamused:
+    permission: unamused
+    show_in_gui: true
+    path: "hammerimage:emojis/unamused"
+    scale_ratio: 9
+    y_position: 8
+  unicorn:
+    permission: unicorn
+    show_in_gui: true
+    path: "hammerimage:emojis/unicorn"
+    scale_ratio: 9
+    y_position: 8
+  unlock:
+    permission: unlock
+    show_in_gui: true
+    path: "hammerimage:emojis/unlock"
+    scale_ratio: 9
+    y_position: 8
+  up:
+    permission: up
+    show_in_gui: true
+    path: "hammerimage:emojis/up"
+    scale_ratio: 9
+    y_position: 8
+  upsidedown:
+    permission: upsidedown
+    show_in_gui: true
+    path: "hammerimage:emojis/upsidedown"
+    scale_ratio: 9
+    y_position: 8
+  virgo:
+    permission: virgo
+    show_in_gui: true
+    path: "hammerimage:emojis/virgo"
+    scale_ratio: 9
+    y_position: 8
+  voltage:
+    permission: voltage
+    show_in_gui: true
+    path: "hammerimage:emojis/voltage"
+    scale_ratio: 9
+    y_position: 8
+  warning:
+    permission: warning
+    show_in_gui: true
+    path: "hammerimage:emojis/warning"
+    scale_ratio: 9
+    y_position: 8
+  wc:
+    permission: wc
+    show_in_gui: true
+    path: "hammerimage:emojis/wc"
+    scale_ratio: 9
+    y_position: 8
+  what:
+    permission: what
+    show_in_gui: true
+    path: "hammerimage:emojis/what"
+    scale_ratio: 9
+    y_position: 8
+  wink:
+    permission: wink
+    show_in_gui: true
+    path: "hammerimage:emojis/wink"
+    scale_ratio: 9
+    y_position: 8
+  woozy:
+    permission: woozy
+    show_in_gui: true
+    path: "hammerimage:emojis/woozy"
+    scale_ratio: 9
+    y_position: 8
+  write:
+    permission: write
+    show_in_gui: true
+    path: "hammerimage:emojis/write"
+    scale_ratio: 9
+    y_position: 8
+  xd:
+    permission: xd
+    show_in_gui: true
+    path: "hammerimage:emojis/xd"
+    scale_ratio: 9
+    y_position: 8
+  yawn:
+    permission: yawn
+    show_in_gui: true
+    path: "hammerimage:emojis/yawn"
+    scale_ratio: 9
+    y_position: 8
+  yinyang:
+    permission: yinyang
+    show_in_gui: true
+    path: "hammerimage:emojis/yinyang"
+    scale_ratio: 9
+    y_position: 8
+  yum:
+    permission: yum
+    show_in_gui: true
+    path: "hammerimage:emojis/yum"
+    scale_ratio: 9
+    y_position: 8
+  zebra:
+    permission: zebra
+    show_in_gui: true
+    path: "hammerimage:emojis/zebra"
+    scale_ratio: 9
+    y_position: 8
+  zip:
+    permission: zip
+    show_in_gui: true
+    path: "hammerimage:emojis/zip"
+    scale_ratio: 9
+    y_position: 8

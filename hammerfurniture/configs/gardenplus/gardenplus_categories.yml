@@ -1,0 +1,88 @@
+info:
+  namespace: hammerfurniture
+categories:
+  gardenplus:
+    enabled: true
+    skip_if_already: false
+    icon: "hammerfurniture:leafplanteoak"
+    name: 园艺
+    permission: itemsadder.menu.hammerfurniture
+    items:
+      - "hammerfurniture:banc_oak_gauche"
+      - "hammerfurniture:banc_oak_droit"
+      - "hammerfurniture:banc_acacia_gauche"
+      - "hammerfurniture:banc_acacia_droit"
+      - "hammerfurniture:banc_birch_gauche"
+      - "hammerfurniture:banc_birch_droit"    
+      - "hammerfurniture:banc_darkoak_gauche"
+      - "hammerfurniture:banc_darkoak_droit"
+      - "hammerfurniture:banc_jungle_gauche"
+      - "hammerfurniture:banc_jungle_droit"
+      - "hammerfurniture:banc_spruce_gauche"
+      - "hammerfurniture:banc_spruce_droit"
+      - "hammerfurniture:banc_warped_gauche"
+      - "hammerfurniture:banc_warped_droit"
+      - "hammerfurniture:banc_crimson_gauche"
+      - "hammerfurniture:banc_crimson_droit"  
+      - "hammerfurniture:leafplanteoak"  
+      - "hammerfurniture:leafplantedarkoak"  
+      - "hammerfurniture:leafplantebirch"  
+      - "hammerfurniture:leafplantespruce"  
+      - "hammerfurniture:dreapleafplante_jungle"       
+      - "hammerfurniture:leafplantecrimson"  
+      - "hammerfurniture:dreapleafplante_warped"  
+      - "hammerfurniture:dreapleafplante_cobble"  
+      - "hammerfurniture:dreapleafplante_brick"  
+      - "hammerfurniture:bamboo_oak"  
+      - "hammerfurniture:bamboo_dark_oak"  
+      - "hammerfurniture:bamboo_birch"  
+      - "hammerfurniture:bamboo_brick"  
+      - "hammerfurniture:bamboo_cobble"  
+      - "hammerfurniture:plantesuspendu"  
+      - "hammerfurniture:plantesuspendu_birch"  
+      - "hammerfurniture:plantesuspendu_darkoak"  
+      - "hammerfurniture:plantesuspendu_jungle"  
+      - "hammerfurniture:plantesuspendu_spruce"  
+      - "hammerfurniture:plantesuspendu_acacia"  
+      - "hammerfurniture:plantesuspendu_warped"  
+      - "hammerfurniture:plantesuspendu_crimson"  
+      - "hammerfurniture:rosier_oak"  
+      - "hammerfurniture:rosier_dark_oak"  
+      - "hammerfurniture:rosier_spruce"  
+      - "hammerfurniture:rosier_birch"  
+      - "hammerfurniture:lilas_oak"  
+      - "hammerfurniture:lilas_dark_oak"  
+      - "hammerfurniture:lilas_spruce"  
+      - "hammerfurniture:lilas_birch" 
+      - "hammerfurniture:peony_oak"  
+      - "hammerfurniture:peony_dark_oak"  
+      - "hammerfurniture:peony_spruce"  
+      - "hammerfurniture:peony_birch"  
+      - "hammerfurniture:peony_big_barrel"  
+      - "hammerfurniture:peony_big_brick"  
+      - "hammerfurniture:peony_big_cobble"  
+      - "hammerfurniture:rose_big_barrel"  
+      - "hammerfurniture:rose_big_brick"  
+      - "hammerfurniture:rose_big_cobble"  
+      - "hammerfurniture:lilac_big_barrel"  
+      - "hammerfurniture:lilac_big_brick"  
+      - "hammerfurniture:lilac_big_cobble"  
+      - "hammerfurniture:windowpotside_oak_pink"  
+      - "hammerfurniture:windowpotside_darkoak_pink"       
+      - "hammerfurniture:windowpotside_spruce_pink"  
+      - "hammerfurniture:windowpotside_jungle_pink"         
+      - "hammerfurniture:windowpotside_acacia_pink"   
+      - "hammerfurniture:windowpotside_birch_pink"  
+      - "hammerfurniture:windowpotside_warped_pink"        
+      - "hammerfurniture:windowpotside_crimson_pink" 
+      - "hammerfurniture:windowpotside_cobble_pink" 
+      - "hammerfurniture:windowpotside_brick_pink" 
+      - "hammerfurniture:windowpotside_barrel_pink" 
+      
+
+      
+ 
+      
+      
+
+

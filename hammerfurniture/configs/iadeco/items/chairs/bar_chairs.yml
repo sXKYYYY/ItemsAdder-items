@@ -1,0 +1,243 @@
+info:
+  namespace: hammerfurniture
+items:
+  white_bar_chair:
+    enabled: true
+    display_name: display-name-white_bar_chair
+    permission: hammerfurniture.chairs.bar_chairs.white_bar_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: iadeco/white_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.9
+  orange_bar_chair:
+    enabled: true
+    display_name: display-name-orange_bar_chair
+    permission: hammerfurniture.chairs.bar_chairs.orange_bar_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: iadeco/orange_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.9
+  magenta_bar_chair:
+    enabled: true
+    display_name: display-name-magenta_bar_chair
+    permission: hammerfurniture.chairs.bar_chairs.magenta_bar_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: iadeco/magenta_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.9
+  light_blue_bar_chair:
+    enabled: true
+    display_name: display-name-light_blue_bar_chair
+    permission: hammerfurniture.chairs.bar_chairs.light_blue_bar_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: iadeco/light_blue_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.9
+  yellow_bar_chair:
+    enabled: true
+    display_name: display-name-yellow_bar_chair
+    permission: hammerfurniture.chairs.bar_chairs.yellow_bar_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: iadeco/yellow_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.9
+  lime_bar_chair:
+    enabled: true
+    display_name: display-name-lime_bar_chair
+    permission: hammerfurniture.chairs.bar_chairs.lime_bar_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: iadeco/lime_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.9
+  pink_bar_chair:
+    enabled: true
+    display_name: display-name-pink_bar_chair
+    permission: hammerfurniture.chairs.bar_chairs.pink_bar_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: iadeco/pink_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.9
+  gray_bar_chair:
+    enabled: true
+    display_name: display-name-gray_bar_chair
+    permission: hammerfurniture.chairs.bar_chairs.gray_bar_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: iadeco/gray_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.9
+  light_gray_bar_chair:
+    enabled: true
+    display_name: display-name-light_gray_bar_chair
+    permission: hammerfurniture.chairs.bar_chairs.light_gray_bar_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: iadeco/light_gray_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.9
+  cyan_bar_chair:
+    enabled: true
+    display_name: display-name-cyan_bar_chair
+    permission: hammerfurniture.chairs.bar_chairs.cyan_bar_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: iadeco/cyan_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.9
+  purple_bar_chair:
+    enabled: true
+    display_name: display-name-purple_bar_chair
+    permission: hammerfurniture.chairs.bar_chairs.purple_bar_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: iadeco/purple_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.9
+  blue_bar_chair:
+    enabled: true
+    display_name: display-name-blue_bar_chair
+    permission: hammerfurniture.chairs.bar_chairs.blue_bar_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: iadeco/blue_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.9
+  brown_bar_chair:
+    enabled: true
+    display_name: display-name-brown_bar_chair
+    permission: hammerfurniture.chairs.bar_chairs.brown_bar_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: iadeco/brown_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.9
+  green_bar_chair:
+    enabled: true
+    display_name: display-name-green_bar_chair
+    permission: hammerfurniture.chairs.bar_chairs.green_bar_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: iadeco/green_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.9
+  red_bar_chair:
+    enabled: true
+    display_name: display-name-red_bar_chair
+    permission: hammerfurniture.chairs.bar_chairs.red_bar_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: iadeco/red_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.9
+  black_bar_chair:
+    enabled: true
+    display_name: display-name-black_bar_chair
+    permission: hammerfurniture.chairs.bar_chairs.black_bar_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: iadeco/black_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.9

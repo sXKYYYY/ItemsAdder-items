@@ -1,0 +1,1421 @@
+info:
+  namespace: "hammerfurniture"
+recipes:
+  crafting_table:
+    red_wooden_sofa_left:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        W: "hammerfurniture:redfabric"
+        P: "OAK_PLANKS"
+        S: "STICK"
+      pattern:
+        - "WXX"
+        - "WWW"
+        - "PSP"
+      result:
+        item: "hammerfurniture:red_wooden_sofa_left"
+        amount: 1
+        
+    red_wooden_sofa_right:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        W: "hammerfurniture:redfabric"
+        P: "OAK_PLANKS"
+        S: "STICK"
+      pattern:
+        - "XXW"
+        - "WWW"
+        - "PSP"
+      result:
+        item: "hammerfurniture:red_wooden_sofa_right"
+        amount: 1
+    red_lowtable:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        P: "OAK_PLANKS"
+        S: "STICK"
+        L: "hammerfurniture:redfabric"
+      pattern:
+        - "XLX"
+        - "PPP"
+        - "SXS"
+      result:
+        item: "hammerfurniture:red_lowtable"
+        amount: 1 
+
+    red_wooden_lamp:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        S: "STICK"
+        L: "hammerfurniture:redfabric"
+        T: "TORCH"
+      pattern:
+        - "XXX"
+        - "LTL"
+        - "XSX"
+      result:
+        item: "hammerfurniture:red_wooden_lamp"
+        amount: 1 
+
+  
+ ####       
+    white_wooden_sofa_left:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        W: "hammerfurniture:yellowfabric"
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "XWX"
+        - "WWW"
+        - "PSP"
+      result:
+        item: "hammerfurniture:white_wooden_sofa_left"
+        amount: 1
+        
+    white_wooden_sofa_right:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        W: "hammerfurniture:yellowfabric"
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "XXW"
+        - "WWW"
+        - "PSP"
+      result:
+        item: "hammerfurniture:white_wooden_sofa_right"
+        amount: 1
+  
+
+    white_wooden_lowtable:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+        L: "hammerfurniture:yellowfabric"
+      pattern:
+        - "XLX"
+        - "PPP"
+        - "SXS"
+      result:
+        item: "hammerfurniture:white_wooden_lowtable"
+        amount: 1         
+
+    white_wooden_lamp:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        S: "STICK"
+        L: "hammerfurniture:yellowfabric"
+        T: "TORCH"
+      pattern:
+        - "XXX"
+        - "LTL"
+        - "XSX"
+      result:
+        item: "hammerfurniture:white_wooden_lamp"
+        amount: 1   
+
+####        
+    cyan_wooden_sofa_left:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        W: "hammerfurniture:cyansummerfabric"
+        P: "JUNGLE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "WXX"
+        - "WWW"
+        - "PSP"
+      result:
+        item: "hammerfurniture:cyan_wooden_sofa_left"
+        amount: 1        
+     
+    cyan_wooden_sofa_right:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        W: "hammerfurniture:cyansummerfabric"
+        P: "JUNGLE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "XXW"
+        - "WWW"
+        - "PSP"
+      result:
+        item: "hammerfurniture:cyan_wooden_sofa_right"
+        amount: 1         
+ 
+    cyan_lowtable:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        P: "JUNGLE_PLANKS"
+        S: "STICK"
+        L: "hammerfurniture:cyansummerfabric"
+      pattern:
+        - "XLX"
+        - "PPP"
+        - "SXS"
+      result:
+        item: "hammerfurniture:cyan_lowtable"
+        amount: 1 
+ 
+    cyan_wooden_lamp:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        S: "STICK"
+        L: "hammerfurniture:cyansummerfabric"
+        T: "TORCH"
+      pattern:
+        - "XXX"
+        - "LTL"
+        - "XSX"
+      result:
+        item: "hammerfurniture:cyan_wooden_lamp"
+        amount: 1 
+ 
+####        
+ 
+    gray_wooden_sofa_right:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        W: "hammerfurniture:acaciagrayfabric"
+        P: "ACACIA_PLANKS"
+        S: "STICK"
+      pattern:
+        - "XXW"
+        - "WWW"
+        - "PSP"
+      result:
+        item: "hammerfurniture:gray_wooden_sofa_right"
+        amount: 1
+    gray_wooden_sofa_left:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        W: "hammerfurniture:acaciagrayfabric"
+        P: "ACACIA_PLANKS"
+        S: "STICK"
+      pattern:
+        - "WXX"
+        - "WWW"
+        - "PSP"
+      result:
+        item: "hammerfurniture:gray_wooden_sofa_left"
+        amount: 1
+        
+    gray_wooden_lowtable:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        P: "ACACIA_PLANKS"
+        S: "STICK"      
+        L: "hammerfurniture:acaciagrayfabric"
+      pattern:
+        - "XLX"
+        - "PPP"
+        - "PSP"
+      result:
+        item: "hammerfurniture:gray_wooden_lowtable"
+        amount: 1         
+        
+ 
+    gray_wooden_lamp:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        S: "STICK"
+        L: "hammerfurniture:acaciagrayfabric"
+        T: "TORCH"
+      pattern:
+        - "XXX"
+        - "LTL"
+        - "XSX"
+      result:
+        item: "hammerfurniture:gray_wooden_lamp"
+        amount: 1    
+ 
+####
+
+    iron_sofa_left:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        W: "hammerfurniture:blackfabric"
+        P: "IRON_INGOT"
+        S: "STICK"
+      pattern:
+        - "WXX"
+        - "WWW"
+        - "PSP"
+      result:
+        item: "hammerfurniture:iron_sofa_left"
+        amount: 1             
+    iron_sofa_right:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        W: "hammerfurniture:blackfabric"
+        P: "IRON_INGOT"
+        S: "STICK"
+      pattern:
+        - "XXW"
+        - "WWW"
+        - "PSP"
+      result:
+        item: "hammerfurniture:iron_sofa_right"
+        amount: 1         
+      
+     
+    iron_lowtable:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        P: "IRON_INGOT"
+        S: "STICK"      
+        L: "hammerfurniture:blackfabric"
+      pattern:
+        - "XLX"
+        - "PPP"
+        - "PSP"
+      result:
+        item: "hammerfurniture:iron_lowtable"
+        amount: 1         
+
+    iron_lamp:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        S: "STICK"
+        L: "hammerfurniture:blackfabric"
+        T: "TORCH"
+      pattern:
+        - "XXX"
+        - "LTL"
+        - "XSX"
+      result:
+        item: "hammerfurniture:iron_lamp"
+        amount: 1    
+ 
+        
+        
+####
+    amethyst_sofa_left:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        W: "hammerfurniture:amethystfabric"
+        P: "QUARTZ_PILLAR"
+      pattern:
+        - "WXX"
+        - "WWW"
+        - "PPP"
+      result:
+        item: "hammerfurniture:amethyst_sofa_left"
+        amount: 1    
+    amethyst_sofa_right:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        W: "hammerfurniture:amethystfabric"
+        P: "QUARTZ_PILLAR"
+      pattern:
+        - "XXW"
+        - "WWW"
+        - "PPP"
+      result:
+        item: "hammerfurniture:amethyst_sofa_right"
+        amount: 1    
+
+    amethyst_lowtable:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        P: "QUARTZ_PILLAR"  
+        L: "hammerfurniture:amethystfabric"
+      pattern:
+        - "XLX"
+        - "PPP"
+        - "PXP"
+      result:
+        item: "hammerfurniture:amethyst_lowtable"
+        amount: 1                 
+
+    amethyst_lamp:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        S: "QUARTZ_PILLAR"
+        L: "hammerfurniture:amethystfabric"
+        T: "TORCH"
+      pattern:
+        - "XXX"
+        - "LTL"
+        - "XSX"
+      result:
+        item: "hammerfurniture:amethyst_lamp"
+        amount: 1
+ 
+
+    black_shop_cover:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        B: "hammerfurniture:blackfabric"
+        W: "hammerfurniture:whitefabric"
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "BWB"
+        - "SPS"
+        - "SXS"
+      result:
+        item: "hammerfurniture:black_shop_cover"
+        amount: 1
+    blue_shop_cover:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        B: "hammerfurniture:bluefabric"
+        W: "hammerfurniture:whitefabric"
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "BWB"
+        - "SPS"
+        - "SXS"
+      result:
+        item: "hammerfurniture:blue_shop_cover"
+        amount: 1
+    brown_shop_cover:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        B: "hammerfurniture:brownfabric"
+        W: "hammerfurniture:whitefabric"
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "BWB"
+        - "SPS"
+        - "SXS"
+      result:
+        item: "hammerfurniture:brown_shop_cover"
+        amount: 1
+    cyan_shop_cover:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        B: "hammerfurniture:cyansummerfabric"
+        W: "hammerfurniture:whitefabric"
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "BWB"
+        - "SPS"
+        - "SXS"
+      result:
+        item: "hammerfurniture:cyan_shop_cover"
+        amount: 1
+    gray_shop_cover:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        B: "hammerfurniture:grayfabric"
+        W: "hammerfurniture:whitefabric"
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "BWB"
+        - "SPS"
+        - "SXS"
+      result:
+        item: "hammerfurniture:gray_shop_cover"
+        amount: 1
+    green_shop_cover:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        B: "hammerfurniture:greenfabric"
+        W: "hammerfurniture:whitefabric"
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "BWB"
+        - "SPS"
+        - "SXS"
+      result:
+        item: "hammerfurniture:green_shop_cover"
+        amount: 1
+    light_blue_shop_cover:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        B: "hammerfurniture:bluefabric"
+        W: "hammerfurniture:whitefabric"
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "WBW"
+        - "SPS"
+        - "SXS"
+      result:
+        item: "hammerfurniture:light_blue_shop_cover"
+        amount: 1
+    light_gray_shop_cover:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        B: "hammerfurniture:grayfabric"
+        W: "hammerfurniture:whitefabric"
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "WBW"
+        - "SPS"
+        - "SXS"
+      result:
+        item: "hammerfurniture:light_gray_shop_cover"
+        amount: 1
+    lime_shop_cover:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        B: "hammerfurniture:greenfabric"
+        W: "hammerfurniture:whitefabric"
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "WBW"
+        - "SPS"
+        - "SXS"
+      result:
+        item: "hammerfurniture:lime_shop_cover"
+        amount: 1
+    magenta_shop_cover:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        B: "hammerfurniture:magentafabric"
+        W: "hammerfurniture:whitefabric"
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "BWB"
+        - "SPS"
+        - "SXS"
+      result:
+        item: "hammerfurniture:magenta_shop_cover"
+        amount: 1
+    orange_shop_cover:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        B: "hammerfurniture:acaciagrayfabric"
+        W: "hammerfurniture:whitefabric"
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "BWB"
+        - "SPS"
+        - "SXS"
+      result:
+        item: "hammerfurniture:orange_shop_cover"
+        amount: 1
+    pink_shop_cover:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        B: "hammerfurniture:pinkfabric"
+        W: "hammerfurniture:whitefabric"
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "BWB"
+        - "SPS"
+        - "SXS"
+      result:
+        item: "hammerfurniture:pink_shop_cover"
+        amount: 1
+    purple_shop_cover:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        B: "hammerfurniture:purplefabric"
+        W: "hammerfurniture:whitefabric"
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "BWB"
+        - "SPS"
+        - "SXS"
+      result:
+        item: "hammerfurniture:purple_shop_cover"
+        amount: 1
+    red_shop_cover:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        B: "hammerfurniture:redfabric"
+        W: "hammerfurniture:whitefabric"
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "BWB"
+        - "SPS"
+        - "SXS"
+      result:
+        item: "hammerfurniture:red_shop_cover"
+        amount: 1
+    white_shop_cover:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        W: "hammerfurniture:whitefabric"
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "www"
+        - "SPS"
+        - "SXS"
+      result:
+        item: "hammerfurniture:white_shop_cover"
+        amount: 1
+    yellow_shop_cover:
+      permission: itemsadder.hammerfurniture    
+      enabled: true
+      ingredients:
+        B: "hammerfurniture:yellowfabric"
+        W: "hammerfurniture:whitefabric"
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "BWB"
+        - "SPS"
+        - "SXS"
+      result:
+        item: "hammerfurniture:yellow_shop_cover"
+        amount: 1
+        
+items:
+
+  red_wooden_sofa_left:
+    display_name: "&4红色木质沙发（左）"
+    permission: itemsadder.hammerfurniture
+    lore:
+
+      - "&c红色风情系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "furnituresplus/redvibecollection/red_wooden_sofa_left"
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.8
+        
+
+        
+  red_wooden_sofa_right:
+    display_name: "&4红色木质沙发（右）"
+    permission: itemsadder.hammerfurniture
+    lore:
+
+      - "&c红色风情系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "furnituresplus/redvibecollection/red_wooden_sofa_right"
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.8
+ 
+  red_lowtable:
+    display_name: "&4红橡木咖啡桌"
+    permission: itemsadder.hammerfurniture
+    lore:
+
+      - "&c红色风情系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "furnituresplus/redvibecollection/red_wooden_lowtable"
+    behaviours:
+      furniture:   
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+
+  red_wooden_lamp:
+    display_name: "&4红橡木灯"
+    permission: itemsadder.hammerfurniture
+    lore:
+
+      - "&c红色风情系列"
+    resource:
+      material: "TORCH"
+      generate: false
+      model_path: "furnituresplus/redvibecollection/red_wooden_lamp"
+    behaviours:
+      furniture: 
+        fixed_rotation: false            
+        solid: false
+        small: false
+        light_level: 13        
+        placeable_on:
+          walls: true
+          ceiling: false
+          floor: true
+
+  white_wooden_sofa_left:
+    display_name: "&r白色木质沙发（左）"
+    permission: itemsadder.hammerfurniture
+    lore:
+
+      - "&f纯白系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "furnituresplus/blankacollection/white_wooden_sofa_left"
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.8
+        
+
+  white_wooden_sofa_right:
+    display_name: "&r白色木质沙发（右）"
+    permission: itemsadder.hammerfurniture
+    lore:
+
+      - "&7Goes Left and right"
+      - "&f纯白系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "furnituresplus/blankacollection/white_wooden_sofa_right"
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.8
+
+  white_wooden_lowtable:
+    display_name: "云杉咖啡桌"
+    permission: itemsadder.hammerfurniture
+    lore:
+
+      - "&f纯白系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "furnituresplus/blankacollection/white_wooden_lowtable"
+    behaviours:
+      furniture:   
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true   
+
+  white_wooden_lamp:
+    display_name: "云杉灯"
+    permission: itemsadder.hammerfurniture
+    lore:
+
+      - "&f纯白系列"
+    resource:
+      material: "TORCH"
+      generate: false
+      model_path: "furnituresplus/blankacollection/white_wooden_lamp"
+    behaviours:
+      furniture: 
+        fixed_rotation: false            
+        solid: false
+        small: false
+        light_level: 13        
+        placeable_on:
+          walls: true
+          ceiling: false
+          floor: true     
+    
+  cyan_wooden_sofa_left:
+    display_name: "&3青色木质沙发（左）"
+    permission: itemsadder.hammerfurniture
+    lore:
+
+      - "&b夏日系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "furnituresplus/summercollection/cyan_wooden_sofa_left"
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.8
+
+  cyan_wooden_sofa_right:
+    display_name: "&3青色木质沙发（右）"
+    permission: itemsadder.hammerfurniture
+    lore:
+
+      - "&b丛林夏日系列"      
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "furnituresplus/summercollection/cyan_wooden_sofa_right"
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.8        
+  
+  cyan_lowtable:
+    display_name: "&3丛林咖啡桌"
+    permission: itemsadder.hammerfurniture
+    lore:
+
+      - "&b丛林夏日系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "furnituresplus/summercollection/cyan_lowtable"
+    behaviours:
+      furniture:   
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+
+  cyan_wooden_lamp:
+    display_name: "&3丛林青色灯"
+    permission: itemsadder.hammerfurniture
+    lore:
+
+      - "&b丛林夏日系列"
+    resource:
+      material: "TORCH"
+      generate: false
+      model_path: "furnituresplus/summercollection/cyan_wooden_lamp"
+    behaviours:
+      furniture: 
+        fixed_rotation: false            
+        solid: false
+        small: false
+        light_level: 13        
+        placeable_on:
+          walls: true
+          ceiling: false
+          floor: true
+
+ 
+####          
+          
+  gray_wooden_sofa_left:
+    display_name: "&6灰色木质沙发（左）"
+    permission: itemsadder.hammerfurniture
+    lore:
+
+      - "&e金合欢灰系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "furnituresplus/acaciagraycollection/gray_wooden_sofa_left"
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.8
+
+  gray_wooden_sofa_right:
+    display_name: "&6灰色木质沙发（右）"
+    permission: itemsadder.hammerfurniture
+    lore:
+
+      - "&e金合欢灰系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "furnituresplus/acaciagraycollection/gray_wooden_sofa_right"
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.8
+
+ 
+  gray_wooden_lowtable:
+    display_name: "&6金合欢咖啡桌"
+    permission: itemsadder.hammerfurniture
+    lore:
+
+      - "&e金合欢灰系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "furnituresplus/acaciagraycollection/gray_wooden_lowtable"
+    behaviours:
+      furniture:   
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+        
+       
+ 
+  gray_wooden_lamp:
+    display_name: "&6灰色金合欢灯"
+    permission: itemsadder.hammerfurniture
+    lore:
+
+      - "&e金合欢灰系列"
+    resource:
+      material: "TORCH"
+      generate: false
+      model_path: "furnituresplus/acaciagraycollection/gray_wooden_lamp"
+    behaviours:
+      furniture: 
+        fixed_rotation: false            
+        solid: false
+        small: false
+        light_level: 13        
+        placeable_on:
+          walls: true
+          ceiling: false
+          floor: true
+
+####        
+  iron_sofa_left:
+    display_name: "&7&l铁质沙发（左）"
+    permission: itemsadder.hammerfurniture
+    lore:
+
+      - "&7&l铁质系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "furnituresplus/steelcollection/iron_sofa_left"
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.8
+
+  iron_sofa_right:
+    display_name: "&7&l铁质沙发（右）"
+    permission: itemsadder.hammerfurniture
+    lore:
+
+      - "&7&l铁质系列"  
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "furnituresplus/steelcollection/iron_sofa_right"
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.8
+
+  iron_lowtable:
+    display_name: "&7&l铁制咖啡桌"
+    permission: itemsadder.hammerfurniture
+    lore:
+
+      - "&7&l铁质系列" 
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "furnituresplus/steelcollection/iron_lowtable"
+    behaviours:
+      furniture:   
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+         
+ 
+  iron_lamp:
+    display_name: "&7&l铁艺灯"
+    permission: itemsadder.hammerfurniture
+    lore:
+
+      - "&7&l铁质系列"     
+    resource:
+      material: "TORCH"
+      generate: false
+      model_path: "furnituresplus/steelcollection/iron_lamp"
+    behaviours:
+      furniture: 
+        fixed_rotation: false            
+        solid: false
+        small: false
+        light_level: 13        
+        placeable_on:
+          walls: true
+          ceiling: false
+          floor: true
+ 
+####
+  amethyst_sofa_left:
+    display_name: "&5紫水晶沙发（左）"
+    permission: itemsadder.hammerfurniture
+    lore:
+
+      - "&9紫水晶系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "furnituresplus/amethystcollection/amethyst_sofa_left"
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.8  
+  amethyst_sofa_right:
+    display_name: "&5紫水晶沙发（右）"
+    permission: itemsadder.hammerfurniture
+    lore:
+
+      - "&9紫水晶系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "furnituresplus/amethystcollection/amethyst_sofa_right"
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.8  
+ 
+
+ 
+  amethyst_lowtable:
+    display_name: "&5紫水晶咖啡桌"
+    permission: itemsadder.hammerfurniture
+    lore:
+
+      - "&9紫水晶系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "furnituresplus/amethystcollection/amethyst_lowtable"
+    behaviours:
+      furniture:   
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true        
+
+ 
+ 
+  amethyst_lamp:
+    display_name: "&5紫水晶灯"
+    permission: itemsadder.hammerfurniture
+    lore:
+
+      - "&9紫水晶系列"     
+    resource:
+      material: "TORCH"
+      generate: false
+      model_path: "furnituresplus/amethystcollection/amethyst_lamp"
+    behaviours:
+      furniture: 
+        fixed_rotation: false            
+        solid: false
+        small: false
+        light_level: 13        
+        placeable_on:
+          walls: true
+          ceiling: false
+          floor: true  
+ 
+  black_shop_cover:
+    display_name: "&f商店雨棚（黑色）"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/black_shop_cover        
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  blue_shop_cover:
+    display_name: "&1商店雨棚（蓝色）"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/blue_shop_cover        
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  brown_shop_cover:
+    display_name: "&6商店雨棚（棕色）"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/brown_shop_cover        
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  cyan_shop_cover:
+    display_name: "&3商店雨棚（青色）"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/cyan_shop_cover        
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  gray_shop_cover:
+    display_name: "&8商店雨棚（灰色）"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/gray_shop_cover        
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  green_shop_cover:
+    display_name: "&2商店雨棚（绿色）"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/green_shop_cover        
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  light_blue_shop_cover:
+    display_name: "&b商店雨棚（亮蓝色）"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/light_blue_shop_cover        
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  light_gray_shop_cover:
+    display_name: "&8商店雨棚（浅灰色）"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/light_gray_shop_cover        
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  lime_shop_cover:
+    display_name: "&a商店雨棚（黄绿色）"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/lime_shop_cover        
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  magenta_shop_cover:
+    display_name: "&d商店雨棚（品红色）"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/magenta_shop_cover        
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  orange_shop_cover:
+    display_name: "&6商店雨棚（橙色）"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/orange_shop_cover        
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  pink_shop_cover:
+    display_name: "&d商店雨棚（粉色）"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/pink_shop_cover        
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  purple_shop_cover:
+    display_name: "&5商店雨棚（紫色）"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/purple_shop_cover        
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  red_shop_cover:
+    display_name: "&4商店雨棚（红色）"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/red_shop_cover        
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  white_shop_cover:
+    display_name: "&f商店雨棚（白色）"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/white_shop_cover        
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  yellow_shop_cover:
+    display_name: "&e店雨棚（黄色）"
+    permission: itemsadder.hammerfurniture
+    lore:
+      - "&7商店系列"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: itemshopplus/yellow_shop_cover        
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
