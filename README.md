@@ -1,5 +1,5 @@
 # ItemsAdder-items
-本仓库用于管理 TRIALHAMMER Innova 服务器中所用到的 ItemsAdder 物品。
+本仓库用于管理 [TRIALHAMMER Innova 服务器](https://wiki.hammer.moe)中所用到的 ItemsAdder 物品。
 
 ## 目录
 
@@ -13,9 +13,11 @@
 
 参与本仓库的维护需要了解一定的 ItemsAdder 前置知识，尤其是配置文件撰写方式。
 
-你可以查看 [example.yml](/example.yml) 快速学习配置文件的写法。
+你可以查看 [example.yml](/example.yml) 快速学习配置文件的写法，也可以参考[原始文档](https://itemsadder.devs.beer/plugin-usage/adding-content/crafting)。
 
-请 fork 本仓库后进行修改，并通过 pull request 向上游提交。
+请 fork 本仓库后进行修改，并通过 pull request 向上游提交。请注意，非 TRIALHAMMER 成员所做出的提交将被忽略。
+
+PLEASE BE NOTED THAT any pull requests from non-members of TRIALHAMMER will be ignored.
 
 ## 授权
 
