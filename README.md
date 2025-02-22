@@ -17,4 +17,4 @@ The content of this repository is ONLY intended for Innova server of TRIALHAMMER
 
 If you take the content as reference, you may attribute TRIALHAMMER at proper conditions.
 
-This repository DOES NOT contain any actual models or textures used in-game. TRIALHAMMER are using these under content and conditions of all respective authors.
+This repository DOES NOT contain any actual models or textures used in-game. TRIALHAMMER are using these under consent and conditions of all respective authors.
