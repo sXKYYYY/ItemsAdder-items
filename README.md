@@ -27,7 +27,7 @@ PLEASE BE NOTED THAT any pull requests from non-members of TRIALHAMMER will be i
 
 本仓库不包含 TRIALHAMMER 服务器中所用物品的模型、贴图等文件。TRIALHAMMER 在获得了各作者授权同意的情况下使用这些模型。
 
-The content of this repository is ONLY intended for Innova server of TRIALHAMMER. You may freely take the content as reference or use them, but the contributors of this repository DOES NOT GRANT ANY GUARANTEE of the usability.
+The content of this repository is ONLY intended for Innova server of TRIALHAMMER. You may freely take the content as reference or use them, but the contributors of this repository DO NOT GRANT ANY GUARANTEE of the usability.
 
 If you take the content as reference, you may attribute TRIALHAMMER at proper conditions.
 
