@@ -30,6 +30,93 @@ recipes:
       result:
         item: chinesestyle:bronze_mirror
         amount: 1
+    stool:
+      enabled: true
+      pattern:
+        - PPP
+        - SXS
+        - SXS
+      ingredients:
+        S: STICK
+        P: SPRUCE_PLANKS
+      result:
+        item: chinesestyle:stool
+        amount: 1
+    chair:
+      enabled: true
+      pattern:
+        - MXX
+        - MCM
+        - MXM
+      pattern_2:
+        - XXM
+        - MCM
+        - MXM
+      ingredients:
+        M: MANGROVE_PLANKS
+        C: chinesestyle:cushion
+      result:
+        item: chinesestyle:chair
+        amount: 1
+    cushion:
+      enabled: true
+      pattern:
+        - XXX
+        - WWW
+        - XXX
+      ingredients:
+        W: WHEAT
+      result:
+        item: chinesestyle:cushion
+        amount: 1
+    porcelain_grand_master_chair:
+      enabled: true
+      pattern:
+        - MXX
+        - MTM
+        - MXM
+      pattern_2:
+        - XXM
+        - MTM
+        - MXM
+      ingredients:
+        T: LIGHT_GRAY_GLAZED_TERRACOTTA
+        M: MANGROVE_PLANKS
+      result:
+        item: chinesestyle:porcelain_grand_master_chair
+        amount: 1
+    chair_1:
+      enabled: true
+      pattern:
+        - MXX
+        - HHH
+        - SXS
+      pattern_2:
+        - XXM
+        - HHH
+        - SXS
+      ingredients:
+        H: MANGROVE_SLAB
+        M: MANGROVE_PLANKS
+        S: STICK
+      result:
+        item: chinesestyle:chair_1
+        amount: 1
+    chair_2:
+      enabled: true
+      pattern:
+        - MXX
+        - MTM
+        - MMM
+      pattern_2:
+        - XXM
+        - MTM
+        - MMM
+      ingredients:
+        T: BAMBOO_MOSAIC
+        M: MANGROVE_PLANKS
+      result:
+        item: porcelain_grand_master_chair
     blue_and_white_porcelain_bowl:
       enabled: true
       pattern:
