@@ -8,6 +8,10 @@ recipes:
         - XXX 
         - BBB
         - SSS
+      pattern_2: 
+        - BBB
+        - SSS
+        - XXX
       ingredients:
         S: STRING
         B: BAMBOO
@@ -113,6 +117,62 @@ recipes:
         M: MANGROVE_PLANKS
       result:
         item: porcelain_grand_master_chair
+    blue_and_white_porcelain_bowl:
+      enabled: true
+      pattern:
+      - XXX
+      - XBX
+      - QMQ
+      pattern_2:
+      - XBX
+      - QMQ
+      - XXX
+      ingredients:
+        M: MUD
+        B: LAPIS_LAZULI
+        Q: QUARTZ_BLOCK
+      result:
+        item: chinesestyle:blue_and_white_porcelain_bowl
+        amount: 1
+    blue_and_white_porcelain_pot:
+      enabled: true
+      pattern:
+      - XPX
+      - QBQ
+      - MMM
+      ingredients:
+        M: MUD
+        B: LAPIS_LAZULI
+        Q: QUARTZ_BLOCK
+        P: PAPER
+      result:
+        item: chinesestyle:blue_and_white_porcelain_pot
+        amount: 1
+    blue_and_white_porcelain_vase:
+      enabled: true
+      pattern:
+      - QXQ
+      - MBM
+      - MMM
+      ingredients:
+        M: MUD
+        B: LAPIS_LAZULI
+        Q: QUARTZ_BLOCK
+      result:
+        item: chinesestyle:blue_and_white_porcelain_vase
+        amount: 1
+    blue_and_white_porcelain_pot_1:
+      enabled: true
+      pattern:
+      - XBX
+      - QBQ
+      - MMM
+      ingredients:
+        M: MUD
+        B: LAPIS_LAZULI
+        Q: QUARTZ_BLOCK
+      result:
+        item: chinesestyle:blue_and_white_porcelain_pot_1
         amount: 1
   cooking: 
     blue_brick:
