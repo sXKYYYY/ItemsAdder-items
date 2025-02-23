@@ -21,7 +21,7 @@ recipes:
       - SBS
       - XSX
       ingredients:
-        S:STICK
+        S:"#minecraft:wooden_tool_materials"
         B:COPPER_INGOT
       result:
         item: chinesestyle:bronze_mirror
