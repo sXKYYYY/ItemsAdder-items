@@ -19,6 +19,10 @@
 
 PLEASE BE NOTED THAT any pull requests from non-members of TRIALHAMMER will be ignored.
 
+## 同步
+
+本仓库的所有内容将在每天的 6:00 同步至服务器，每日仅同步一次。
+
 ## 授权
 
 本仓库中的所有内容**仅为 TRIALHAMMER Innova 服务器设计**。您可以自由地参考，使用本仓库的内容，但本仓库作者**不对其可用性做出任何保证**。
