@@ -125,7 +125,7 @@ recipes:
         T: BAMBOO_MOSAIC
         M: MANGROVE_PLANKS
       result:
-        item: porcelain_grand_master_chair
+        item: chinesestyle:porcelain_grand_master_chair
     # 青花瓷碗
     blue_and_white_porcelain_bowl:
       enabled: true
@@ -144,8 +144,8 @@ recipes:
       result:
         item: chinesestyle:blue_and_white_porcelain_bowl
         amount: 1
-    # 青花瓷罐
-    blue_and_white_porcelain_pot:
+    # 青花瓷大瓶（带纸的那个）
+    blue_and_white_porcelain_vase:
       enabled: true
       pattern:
       - XPX
@@ -157,10 +157,10 @@ recipes:
         Q: QUARTZ_BLOCK
         P: PAPER
       result:
-        item: chinesestyle:blue_and_white_porcelain_pot
+        item: chinesestyle:blue_and_white_porcelain_vase
         amount: 1
     # 青花瓷瓶
-    blue_and_white_porcelain_vase:
+    blue_and_white_porcelain_vase_1:
       enabled: true
       pattern:
       - QXQ
@@ -171,9 +171,23 @@ recipes:
         B: LAPIS_LAZULI
         Q: QUARTZ_BLOCK
       result:
-        item: chinesestyle:blue_and_white_porcelain_vase
+        item: chinesestyle:blue_and_white_porcelain_vase_1
         amount: 1
     # 青花瓷罐
+    blue_and_white_porcelain_pot:
+      enabled: true
+      pattern:
+      - XXX
+      - QBQ
+      - MMM
+      ingredients:
+        M: MUD
+        B: LAPIS_LAZULI
+        Q: QUARTZ_BLOCK
+      result:
+        item: chinesestyle:blue_and_white_porcelain_pot
+        amount: 1
+    # 青花瓷罐（带盖子的那个）
     blue_and_white_porcelain_pot_1:
       enabled: true
       pattern:
@@ -187,7 +201,101 @@ recipes:
       result:
         item: chinesestyle:blue_and_white_porcelain_pot_1
         amount: 1
-  
+    # 锅炉（关）
+    boiler_closed:
+      enabled: true
+      pattern:
+      - BBB
+      - BFB
+      - BXB
+      ingredients:
+        B: chinesestyle:blue_brick
+        F: FURNACE
+      result:
+        item: chinesestyle:boiler_closed
+        amount: 1
+    # 锅炉（开）
+    boiler_open:
+      enabled: true
+      pattern:
+      - BBB
+      - BFB
+      - BXB
+      ingredients:
+        B: chinesestyle:blue_brick
+        F: FURNACE
+        X: BLAZE_ROD
+      result:
+        item: chinesestyle:boiler_open
+        amount: 1
+    # 靴子
+    boots:
+      enabled: true
+      shapeless: true # 无序合成
+      ingredients:
+        A: LEATHER_BOOTS
+        B: HONEYCOMB
+      result:
+        item: chinesestyle:boots
+        amount: 1
+    # 中式书本
+    chinese_book:
+      enabled: true
+      shapless: true # 无序合成
+      ingredients:
+        A: book
+        B: blue_dye
+        C: string
+        D: string
+      result:
+        item: chinesestyle:chinese_book
+        amount: 1
+    # 书堆
+    pile_of_books:
+      enabled: true
+      shapless: true # 无序合成
+      ingredients:
+        A: chinesestyle:chinese_book
+        B: chinesestyle:chinese_book
+        C: chinesestyle:chinese_book
+      result:
+        item: chinesestyle:pile_of_books
+        amount: 2
+    # 中式立灯
+    chinese_standing_lamp:
+      enabled: true
+      pattern:
+      - PPP
+      - PLP
+      - SSS
+      ingredients:
+        P: PAPER
+        L: LANTERN
+        S: STICK
+      result:
+        item: chinesestyle:chinese_standing_lamp
+        amount: 1
+    # 玉玺
+    imperial_jade_seal:
+      enabled: true
+      pattern:
+      - XGX
+      - XDX
+      - XDX
+      pattern_2:
+      - XXG
+      - XXD
+      - XXD
+      pattern_3:
+      - GXX
+      - DXX
+      - DXX
+      ingredients:
+        G: GOLD_INGOT
+        D: DIAMOND
+      result:
+        item: chinesestyle:imperial_jade_seal
+        amount: 1  
   # 烧炼配方
   cooking: 
     blue_brick:
