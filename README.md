@@ -1,5 +1,5 @@
 # ItemsAdder-items
-本仓库用于管理 [TRIALHAMMER Innova 服务器](https://wiki.hammer.moe)中所用到的 ItemsAdder 物品。
+本仓库用于管理 [TRIALHAMMER Innova 服务器](https://wiki.hammer.moe) 中所用到的 ItemsAdder 物品。
 
 ## 目录
 
