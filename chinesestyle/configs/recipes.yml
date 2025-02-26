@@ -246,18 +246,17 @@ recipes:
         A: book
         B: blue_dye
         C: string
-        D: string
       result:
         item: chinesestyle:chinese_book
         amount: 1
     # 书堆
     pile_of_books:
       enabled: true
-      shapless: true # 无序合成
+      pattern:
+        - AA
+        - AX
       ingredients:
         A: chinesestyle:chinese_book
-        B: chinesestyle:chinese_book
-        C: chinesestyle:chinese_book
       result:
         item: chinesestyle:pile_of_books
         amount: 2
