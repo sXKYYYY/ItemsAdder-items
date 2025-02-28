@@ -125,7 +125,7 @@ recipes:
         T: BAMBOO_MOSAIC
         M: MANGROVE_PLANKS
       result:
-        item: chinesestyle:porcelain_grand_master_chair
+        item: chinesestyle:chair_2
     # 青花瓷碗
     blue_and_white_porcelain_bowl:
       enabled: true
@@ -295,6 +295,150 @@ recipes:
       result:
         item: chinesestyle:imperial_jade_seal
         amount: 1  
+    # 果盒
+    fruit_box:
+      enabled: true
+      pattern:
+        - AAA
+        - PPP
+      ingredients:
+        A: APPLE
+        P: SPRUCE_PLANKS
+      result:
+        item: chinesestyle:fruit_box
+        amount: 1
+    # 长桌边
+    long_table_edge:
+      enabled: true 
+      pattern:
+       - MMM
+       - SXX
+       - SXX
+      pattern_2:
+       - MMM
+       - XXS
+       - XXS
+      ingredients:
+        M: MANGROVE_SLAB
+        S: STICK
+      result:
+        item: chinesestyle:long_table_edge
+        amount: 1
+    # 长桌中
+    long_table_middle:
+      enabled: true
+      pattern:
+        - MMM
+        - XXX
+        - XXX
+      ingredients:
+        M: MANGROVE_SLAB
+      result:
+        item: chinesestyle:long_table_middle
+        amount: 1
+    # 桌子1
+    table_1:
+      enabled: true 
+      pattern:
+        - MM
+        - SS
+        - SS
+      ingredients:
+        M: MANGROVE_SLAB
+        S: STICK
+      result:
+        item: chinesestyle:table_1
+        amount: 1
+    # 桌子2
+    table_2:
+      enabled: true 
+      pattern:
+        - MXM
+        - SXS
+        - SXS
+      ingredients:
+        M: MANGROVE_SLAB
+        S: STICK
+      result:
+        item: chinesestyle:table_2
+        amount: 1
+    # 蜡烛
+    candle:
+      enabled: true 
+      pattern:
+        - C
+        - B
+      ingredients:
+        C: BROWN_CANDLE
+        B: MANGROVE_BUTTON
+      result:
+        item: chinesestyle:candle
+        amount: 1
+    # 靠枕
+    pillow:
+      enabled: true
+      shapeless: true # 无序合成
+      ingredients:
+        A: chinesestyle:cushion
+      result:
+        item: chinesestyle:pillow
+        amount: 1
+    # 麻袋
+    sack:
+      enabled: true
+      pattern:
+        - WPW
+        - WWW
+      ingredients:
+        W: WHEAT
+        P: POTATO
+      result:
+        item: chinesestyle:sack
+        amount: 1
+    # 布袋
+    cloth_bag:
+      enabled: true
+      pattern:
+        - WW
+        - WW
+      ingredients:
+        W: WHEAT
+      result: 
+        item: chinesestyle:cloth_bag
+        amount: 1
+    # 大腿肉
+    thigh_meat:
+      enabled: true
+      pattern:
+        - M
+        - P
+      ingredients: 
+        M: COOKED_PORKCHOP
+        P: OAK_SLAB
+      result:
+        item: chinesestyle:thigh_meat
+        amount: 1
+    # 鱼肉
+    fish:
+      enabled: true 
+      pattern:
+        - F
+        - P
+      ingredients:
+        F: COOKED_SALMON
+        P: OAK_SLAB
+      result:
+        item: chinesestyle:fish
+        amount: 1
+    # 胡萝卜
+    carrots:
+      enabled: true
+      shapeless: true # 无序合成
+      ingredients:
+        A: CARROT
+        B: CARROT
+      result:
+        item: chinesestyle:carrots
     # 香炉
     incense_burner:
       enabled: true
