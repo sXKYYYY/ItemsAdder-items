@@ -243,9 +243,9 @@ recipes:
       enabled: true
       shapless: true # 无序合成
       ingredients:
-        A: book
-        B: blue_dye
-        C: string
+        A: BOOK
+        B: BLUE_DYE
+        C: STRING
       result:
         item: chinesestyle:chinese_book
         amount: 1
