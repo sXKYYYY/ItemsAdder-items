@@ -241,7 +241,7 @@ recipes:
     # 中式书本
     chinese_book:
       enabled: true
-      shapless: true # 无序合成
+      shapeless: true # 无序合成
       ingredients:
         A: BOOK
         B: BLUE_DYE
