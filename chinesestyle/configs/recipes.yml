@@ -507,3 +507,16 @@ recipes:
         result:  
           item: chinesestyle:pen_holder  
           amount: 1
+    # 日晷
+    sundial:
+        enabled: true  
+        pattern:  
+        - SSS  
+        - SIS  
+        - SSS  
+        ingredients:  
+          S: STONE 
+          I: IRON_BARS
+        result:  
+          item: chinesestyle:sundial  
+          amount: 1
