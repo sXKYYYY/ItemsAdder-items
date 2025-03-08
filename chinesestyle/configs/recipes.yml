@@ -493,3 +493,17 @@ recipes:
       result: 
         item: chinesestyle:blue_brick
         amount: 1
+    # 笔具
+    pen_holder:  
+        enabled: true  
+        pattern:  
+        - SSS  
+        - SBS  
+        - SWS  
+        ingredients:  
+          S: STICK  
+          B: BAMBOO 
+          W: WHITE_WOOL 
+        result:  
+          item: chinesestyle:pen_holder  
+          amount: 1
