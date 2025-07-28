@@ -6,7 +6,7 @@ items:
     lore:
       - "&7指向九点的摆钟"
       - "&8<TRIALHAMMER 九周年>"
-      - "&8[2025-08]
+      - "&8[2025-08]"
     resource:
       material: "PAPER"
       generate: false
