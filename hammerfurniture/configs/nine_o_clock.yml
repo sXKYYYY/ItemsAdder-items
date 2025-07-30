@@ -2,9 +2,9 @@ info:
   namespace: hammerfurniture
 items:
   nine_o_clock:
-    display_name: "&b九点钟"
+    display_name: "&b古铜色挂钟"
     lore:
-      - "&7指向九点的摆钟"
+      - "&7一台古铜色的挂钟，时针指向九点"
       - "&8<TRIALHAMMER 九周年>"
       - "&8[2025-08]"
     resource:
