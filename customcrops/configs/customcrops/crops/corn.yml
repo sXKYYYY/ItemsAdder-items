@@ -1,18 +1,18 @@
 info:
   namespace: customcrops
 items:
-  chinesecabbage_stage_1:
-    display_name: 白菜
+  corn_stage_1:
+    display_name: ""
     resource:
       generate: false
       material: PAPER
-      model_path: item/crops/chinese_cabbage/stage_1
+      model_path: item/crops/corn/stage_1
     behaviours:
       furniture:
         entity: item_frame
-        fixed_rotation: false
+        shift_interact_rotate: false
         solid: false
-        cancel_drop: false
+        cancel_drop: true
         hitbox:
           length: 1
           width: 1
@@ -21,18 +21,18 @@ items:
           walls: false
           ceiling: false
           floor: true
-  chinesecabbage_stage_2:
-    display_name: 白菜
+  corn_stage_2:
+    display_name: ""
     resource:
       generate: false
       material: PAPER
-      model_path: item/crops/chinese_cabbage/stage_2
+      model_path: item/crops/corn/stage_2
     behaviours:
       furniture:
         entity: item_frame
-        fixed_rotation: false
+        shift_interact_rotate: false
         solid: false
-        cancel_drop: false
+        cancel_drop: true
         hitbox:
           length: 1
           width: 1
@@ -41,18 +41,18 @@ items:
           walls: false
           ceiling: false
           floor: true
-  chinesecabbage_stage_3:
-    display_name: 白菜
+  corn_stage_3:
+    display_name: ""
     resource:
       generate: false
       material: PAPER
-      model_path: item/crops/chinese_cabbage/stage_3
+      model_path: item/crops/corn/stage_3
     behaviours:
       furniture:
         entity: item_frame
-        fixed_rotation: false
+        shift_interact_rotate: false
         solid: false
-        cancel_drop: false
+        cancel_drop: true
         hitbox:
           length: 1
           width: 1
@@ -61,18 +61,18 @@ items:
           walls: false
           ceiling: false
           floor: true
-  chinesecabbage_stage_4:
-    display_name: 白菜
+  corn_stage_4:
+    display_name: ""
     resource:
       generate: false
       material: PAPER
-      model_path: item/crops/chinese_cabbage/stage_4
+      model_path: item/crops/corn/stage_4
     behaviours:
       furniture:
         entity: item_frame
-        fixed_rotation: false
+        shift_interact_rotate: false
         solid: false
-        cancel_drop: false
+        cancel_drop: true
         hitbox:
           length: 1
           width: 1
@@ -81,60 +81,62 @@ items:
           walls: false
           ceiling: false
           floor: true
-  chinesecabbage_seeds:
-    #display_name: ""Chinese Cabbage Seeds"
-    display_name: 白菜种子
+  corn_seeds:
+    #display_name: "Corn Seeds"
+    display_name: 玉米种子
     resource:
       generate: false
       material: PAPER
-      model_path: item/crops/chinese_cabbage/chinese_cabbage_seeds
-  chinese_cabbage:
-    #display_name: ""Chinese Cabbage"
-    display_name: 白菜
+      model_path: item/crops/corn/corn_seeds
+  corn:
+    #display_name: "Corn"
+    display_name: 玉米
     resource:
       generate: false
       material: APPLE
-      model_path: item/crops/chinese_cabbage/chinese_cabbage
+      model_path: item/crops/corn/corn
     events:
       eat:
         feed:
           amount: 1
           saturation: 1
-  chinese_cabbage_silver_star:
-    #display_name: ""Chinese Cabbage (Silver Star)"
-    display_name: 白菜(银星)
+  corn_silver_star:
+    #display_name: "Corn （Silver Star）"
+    display_name: 玉米（银星）
     resource:
       generate: false
       material: APPLE
-      model_path: item/crops/chinese_cabbage/chinese_cabbage_silver_star
+      model_path: item/crops/corn/corn_silver_star
     events:
       eat:
         feed:
           amount: 1
           saturation: 1
-  chinese_cabbage_golden_star:
-    #display_name: ""Chinese Cabbage (Golden Star)"
-    display_name: 白菜(金星)
+  corn_golden_star:
+    #display_name: "Corn （Golden Star）"
+    display_name: 玉米（金星）
     resource:
       generate: false
       material: APPLE
-      model_path: item/crops/chinese_cabbage/chinese_cabbage_golden_star
+      model_path: item/crops/corn/corn_golden_star
     events:
       eat:
         feed:
           amount: 1
           saturation: 1
 categories:
-  customcrops_chinese_cabbage:
+  customcrops_corn:
     enabled: true
-    icon: customcrops:chinese_cabbage
-    name: '白菜'
+    icon: corn
+    name: '玉米'
     items:
-      - customcrops:chinese_cabbage
-      - customcrops:chinese_cabbage_silver_star
-      - customcrops:chinese_cabbage_golden_star
-      - customcrops:chinesecabbage_seeds
-      - customcrops:chinesecabbage_stage_1
-      - customcrops:chinesecabbage_stage_2
-      - customcrops:chinesecabbage_stage_3
-      - customcrops:chinesecabbage_stage_4
+      - customcrops:corn_seeds
+      - customcrops:corn
+      - customcrops:corn_silver_star
+      - customcrops:corn_golden_star
+      - customcrops:corn_stage_1
+      - customcrops:corn_stage_2
+      - customcrops:corn_stage_3
+      - customcrops:corn_stage_4
+      - customcrops:corn_stage_5
+      - customcrops:corn_stage_6

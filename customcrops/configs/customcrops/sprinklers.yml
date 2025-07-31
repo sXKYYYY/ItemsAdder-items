@@ -2,13 +2,13 @@ info:
   namespace: customcrops
 items:
   water_effect:
-    #display_name: """
+    display_name: ""
     resource:
       generate: false
       material: PAPER
       model_path: item/sprinklers/water_effect
   sprinkler_1:
-    #display_name: """
+    display_name: ""
     resource:
       material: PAPER
       generate: false
@@ -16,9 +16,9 @@ items:
     behaviours:
       furniture:
         entity: item_frame
-        fixed_rotation: true
         solid: false
-        cancel_drop: false
+        cancel_drop: true
+        shift_interact_rotate: false
         hitbox:
           length: 1
           width: 1
@@ -39,7 +39,7 @@ items:
       material: PAPER
       model_path: item/sprinklers/sprinkler_1_item
   sprinkler_2:
-    #display_name: """
+    display_name: ""
     resource:
       material: PAPER
       generate: false
@@ -47,9 +47,9 @@ items:
     behaviours:
       furniture:
         entity: item_frame
-        fixed_rotation: true
         solid: false
-        cancel_drop: false
+        shift_interact_rotate: false
+        cancel_drop: true
         hitbox:
           length: 1
           width: 1
@@ -70,7 +70,7 @@ items:
       material: PAPER
       model_path: item/sprinklers/sprinkler_2_item
   sprinkler_3:
-    #display_name: """
+    display_name: ""
     resource:
       material: PAPER
       generate: false
@@ -78,9 +78,9 @@ items:
     behaviours:
       furniture:
         entity: item_frame
-        fixed_rotation: true
+        shift_interact_rotate: false
         solid: false
-        cancel_drop: false
+        cancel_drop: true
         hitbox:
           length: 1
           width: 1

@@ -2,7 +2,7 @@ info:
   namespace: customcrops
 items:
   redpacket_stage_1:
-    display_name: 摇钱树
+    display_name: ""
     resource:
       generate: false
       material: PAPER
@@ -10,9 +10,9 @@ items:
     behaviours:
       furniture:
         entity: item_frame
-        fixed_rotation: false
+        shift_interact_rotate: false
         solid: false
-        cancel_drop: false
+        cancel_drop: true
         hitbox:
           length: 1
           width: 1
@@ -22,7 +22,7 @@ items:
           ceiling: false
           floor: true
   redpacket_stage_2:
-    display_name: 摇钱树
+    display_name: ""
     resource:
       generate: false
       material: PAPER
@@ -30,9 +30,9 @@ items:
     behaviours:
       furniture:
         entity: item_frame
-        fixed_rotation: false
+        shift_interact_rotate: false
         solid: false
-        cancel_drop: false
+        cancel_drop: true
         hitbox:
           length: 1
           width: 1
@@ -42,7 +42,7 @@ items:
           ceiling: false
           floor: true
   redpacket_stage_3:
-    display_name: 摇钱树
+    display_name: ""
     resource:
       generate: false
       material: PAPER
@@ -50,9 +50,9 @@ items:
     behaviours:
       furniture:
         entity: item_frame
-        fixed_rotation: false
+        shift_interact_rotate: false
         solid: false
-        cancel_drop: false
+        cancel_drop: true
         hitbox:
           length: 1
           width: 1
@@ -62,7 +62,7 @@ items:
           ceiling: false
           floor: true
   redpacket_stage_4:
-    display_name: 摇钱树
+    display_name: ""
     resource:
       generate: false
       material: PAPER
@@ -70,9 +70,9 @@ items:
     behaviours:
       furniture:
         entity: item_frame
-        fixed_rotation: false
+        shift_interact_rotate: false
         solid: false
-        cancel_drop: false
+        cancel_drop: true
         hitbox:
           length: 1
           width: 1
@@ -82,7 +82,7 @@ items:
           ceiling: false
           floor: true
   redpacket_stage_5:
-    display_name: 摇钱树
+    display_name: ""
     resource:
       generate: false
       material: PAPER
@@ -90,9 +90,9 @@ items:
     behaviours:
       furniture:
         entity: item_frame
-        fixed_rotation: false
+        shift_interact_rotate: false
         solid: false
-        cancel_drop: false
+        cancel_drop: true
         hitbox:
           length: 1
           width: 1
@@ -102,7 +102,7 @@ items:
           ceiling: false
           floor: true
   redpacket_stage_6:
-    display_name: 摇钱树
+    display_name: ""
     resource:
       generate: false
       material: PAPER
@@ -110,9 +110,9 @@ items:
     behaviours:
       furniture:
         entity: item_frame
-        fixed_rotation: false
+        shift_interact_rotate: false
         solid: false
-        cancel_drop: false
+        cancel_drop: true
         hitbox:
           length: 1
           width: 1
@@ -122,14 +122,14 @@ items:
           ceiling: false
           floor: true
   redpacket_seeds:
-    #display_name: ""Red Packet Tree Seed"
+    #display_name: "Red Packet Tree Seed"
     display_name: 摇钱树种子
     resource:
       generate: false
       material: PAPER
       model_path: item/crops/redpacket/redpacket_seeds
   redpacket:
-    #display_name: ""Red Packet"
+    #display_name: "Red Packet"
     display_name: 红包
     resource:
       generate: false
@@ -140,7 +140,7 @@ items:
         right:
           execute_commands:
             cmd1:
-              command: 'money give {player} 0.88'
+              command: 'points give {player} 1'
               as_console: true
               delay: 0
           decrement_amount:
