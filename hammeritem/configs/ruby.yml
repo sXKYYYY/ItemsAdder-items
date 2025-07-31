@@ -101,12 +101,3 @@ loots:
           max_amount: 1
           ignore_fortune: true
           chance: 100
-    ruby_block:
-      type: hammeritem:ruby_block
-      items:
-        hammeritem:ruby_block:
-          item: hammeritem:ruby_block
-          min_amount: 1
-          max_amount: 1
-          ignore_fortune: true
-          chance: 100
