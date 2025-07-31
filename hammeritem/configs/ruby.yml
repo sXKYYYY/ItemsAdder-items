@@ -36,7 +36,7 @@ items:
       block:
         placed_model:
           type: REAL_NOTE
-        cancel_drop: true
+        cancel_drop: false
 
   ruby:
     enabled: true
