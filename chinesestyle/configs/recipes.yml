@@ -501,7 +501,7 @@ recipes:
         - SBS  
         - SWS  
         ingredients:  
-          S: STICK  
+          S: STICK 
           B: BAMBOO 
           W: WHITE_WOOL 
         result:  
@@ -520,3 +520,69 @@ recipes:
         result:  
           item: chinesestyle:sundial  
           amount: 1
+    # 小红灯笼
+    little_red_lantern:
+        enabled: true  
+        pattern:  
+        - XSX  
+        - RTR  
+        - RRR  
+        ingredients:  
+          R: RED_WOOL
+          T: TORCH
+          S: STICK 
+        result:  
+          item: chinesestyle:little_red_lantern
+          amount: 1
+    # 刀
+    knife:
+        enabled: true  
+        pattern:  
+        - XXI  
+        - XIX  
+        - SXX  
+        ingredients:  
+          I: IRON_INGOT
+          S: STICK 
+        result:  
+          item: chinesestyle:knife
+          amount: 1
+    # 尺子
+    ruler:
+        enabled: true  
+        pattern:  
+        - XXS  
+        - XSX  
+        - SXX  
+        ingredients:  
+          S: STICK 
+        result:  
+          item: chinesestyle:ruler
+          amount: 1
+     # 草帽
+     straw_hat:
+        enabled: true  
+        pattern:  
+        - WWW  
+        - WLW  
+        - XXX  
+        ingredients:  
+          L: LEATHER_HELMET 
+          W: WHEAT
+        result:  
+          item: chinesestyle:straw_hat
+          amount: 1
+     # 扫帚
+     broom:
+        enabled: true  
+        pattern:  
+        - XXS  
+        - XSX  
+        - WXX 
+        ingredients:  
+          S: STICK 
+          W: WHEAT
+        result:  
+          item: chinesestyle:broom
+          amount: 1
+      
