@@ -480,19 +480,6 @@ recipes:
       result: 
         item: chinesestyle:long_pillow
         amount: 1
-  # 烧炼配方
-  cooking: 
-    blue_brick:
-      enabled: true
-      ingredient: 
-        item: BRICKS 
-      machines:
-      - FURNACE 
-      exp: 3 
-      cook_time: 200 
-      result: 
-        item: chinesestyle:blue_brick
-        amount: 1
     # 笔具
     pen_holder:  
         enabled: true  
@@ -559,8 +546,8 @@ recipes:
         result:  
           item: chinesestyle:ruler
           amount: 1
-     # 草帽
-     straw_hat:
+    # 草帽
+    straw_hat:
         enabled: true  
         pattern:  
         - WWW  
@@ -572,8 +559,8 @@ recipes:
         result:  
           item: chinesestyle:straw_hat
           amount: 1
-     # 扫帚
-     broom:
+    # 扫帚
+    broom:
         enabled: true  
         pattern:  
         - XXS  
@@ -585,4 +572,17 @@ recipes:
         result:  
           item: chinesestyle:broom
           amount: 1
+  # 烧炼配方
+  cooking: 
+    blue_brick:
+      enabled: true
+      ingredient: 
+        item: BRICKS 
+      machines:
+      - FURNACE 
+      exp: 3 
+      cook_time: 200 
+      result: 
+        item: chinesestyle:blue_brick
+        amount: 1
       
