@@ -36,7 +36,7 @@ items:
       block:
         placed_model:
           type: REAL_NOTE
-        cancel_drop: true
+        cancel_drop: false
 
   ruby:
     enabled: true
@@ -97,15 +97,6 @@ loots:
       items:
         hammeritem:ruby:
           item: hammeritem:ruby
-          min_amount: 1
-          max_amount: 1
-          ignore_fortune: true
-          chance: 100
-    ruby_block:
-      type: hammeritem:ruby_block
-      items:
-        hammeritem:ruby_block:
-          item: hammeritem:ruby_block
           min_amount: 1
           max_amount: 1
           ignore_fortune: true

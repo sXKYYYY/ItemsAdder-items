@@ -30,7 +30,7 @@ items:
         placed_model:
           type: REAL_NOTE
           break_particles: ITEM
-        cancel_drop: false
+        cancel_drop: true
         sound:
           place:
             name: block.wood.place
@@ -39,13 +39,13 @@ items:
         break_tools_whitelist:
         - AXE
   crow_stand:
-    #display_name: """
+    display_name: ""
     resource:
       generate: false
       material: PAPER
       model_path: item/basics/crow_stand
   crow_fly:
-    #display_name: """
+    display_name: ""
     resource:
       generate: false
       material: PAPER
@@ -78,7 +78,7 @@ items:
     behaviours:
       furniture:
         entity: item_frame
-        fixed_rotation: true
+        fixed_rotation: false
         solid: true
         cancel_drop: false
         hitbox:
@@ -86,17 +86,11 @@ items:
           width: 1
           height: 1
         placeable_on:
-          walls: false
-          ceiling: false
+          walls: true
+          ceiling: true
           floor: true
-          break_particles: ITEM
-        sound:
-          place:
-            name: block.glass.place
-          break:
-            name: block.glass.break
   crop_stage_death:
-    #display_name: """
+    display_name: ""
     resource:
       generate: false
       material: PAPER
@@ -106,7 +100,7 @@ items:
         entity: item_frame
         fixed_rotation: false
         solid: false
-        cancel_drop: false
+        cancel_drop: true
         hitbox:
           length: 1
           width: 1
@@ -123,7 +117,7 @@ items:
       model_path: 'item/basics/soil_surveyor'
 loots:
   blocks:
-    watered_pot:
+    wet_pot:
       type: customcrops:watered_pot
       items:
         result_1:

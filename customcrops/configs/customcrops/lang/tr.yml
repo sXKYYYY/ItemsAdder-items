@@ -13,9 +13,9 @@ dictionary:
   display-name-speed_grow_1: Hızlı Büyütücü
   display-name-speed_grow_2: Orta Hızlı Büyütücü
   display-name-speed_grow_3: Hiper Hızlı Büyütücü
-  display-name-soil_retain_1: Temel Toprak Sulayıcı (şansa bağlı)
-  display-name-soil_retain_2: Kaliteli Toprak Sulayıcı (şansa bağlı)
-  display-name-soil_retain_3: Lüks Toprak Sulayıcı (şansa bağlı)
+  display-name-soil_retain_1: Temel Toprak Sulayıcı （şansa bağlı）
+  display-name-soil_retain_2: Kaliteli Toprak Sulayıcı （şansa bağlı）
+  display-name-soil_retain_3: Lüks Toprak Sulayıcı （şansa bağlı）
   display-name-quality_1: Temel Gübre
   display-name-quality_2: Kaliteli Gübre
   display-name-quality_3: Lüks Gübre
@@ -34,8 +34,8 @@ dictionary:
   display-name-sprinkler_3_item: Modern Fıskiye
   # Tomato
   display-name-tomato: Domates
-  display-name-tomato_silver_star: Domates (Gümüş Yıldız)
-  display-name-tomato_golden_star: Domates (Altın Yıldız)
+  display-name-tomato_silver_star: Domates （Gümüş Yıldız）
+  display-name-tomato_golden_star: Domates （Altın Yıldız）
   display-name-tomato_seeds: Domates Tohumu
   display-name-gigantic_tomato: Devasa Domates
   display-name-golden_tomato: Altın Domates

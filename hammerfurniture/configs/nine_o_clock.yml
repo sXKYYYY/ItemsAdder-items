@@ -1,0 +1,23 @@
+info:
+  namespace: hammerfurniture
+items:
+  nine_o_clock:
+    display_name: "&b古铜色挂钟"
+    lore:
+      - "&7一台古铜色的挂钟，时针指向九点"
+      - "&8<TRIALHAMMER 九周年>"
+      - "&8[2025-08]"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: hammer/nine_o_clock
+    behaviours:
+      furniture:
+        entity: item_frame
+        fixed_rotation: true
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
