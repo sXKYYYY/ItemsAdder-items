@@ -67,7 +67,7 @@ recipes:
    cushion:
       enabled: true
       pattern:
-        - XX
+        - WW
         - WW
       ingredients:
         W: WHEAT
