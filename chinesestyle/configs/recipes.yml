@@ -64,7 +64,7 @@ recipes:
         item: chinesestyle:chair
         amount: 1
     # 坐垫
-   cushion:
+    cushion:
       enabled: true
       pattern:
         - WW
