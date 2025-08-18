@@ -571,6 +571,48 @@ recipes:
         result:  
           item: chinesestyle:broom
           amount: 1
+    # 绿豆糕
+    mung_bean_cake:
+        enabled: true  
+        pattern:  
+        - XXB  
+        - XXW  
+        - XXD
+        ingredients:  
+          B: BREAD
+          W: WHEAT_SEEDS
+          D: DARK_OAK_PRESSURE_PLATE
+        result:  
+          item: chinesestyle:mung_bean_cake
+          amount: 1
+    # 灵位
+    spiritual_figure:
+        enabled: true  
+        pattern:  
+        - SSS  
+        - XDX  
+        - OOO 
+        ingredients:  
+          S: STICK 
+          D: DARK_OAK_TRAPDOOR
+          O: OAK_SLAB
+        result:  
+          item: chinesestyle:spiritual_figure
+          amount: 1
+    # 立灯
+    standing_lamp:
+        enabled: true  
+        pattern:  
+        - SLS  
+        - XSX  
+        - XOX 
+        ingredients:  
+          L: LANTERN
+          S: STICK 
+          O: OAK_SLAB
+        result:  
+          item: chinesestyle:standing_lamp
+          amount: 1
   # 烧炼配方
   cooking: 
     blue_brick:
