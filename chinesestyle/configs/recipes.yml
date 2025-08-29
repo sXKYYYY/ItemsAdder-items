@@ -603,13 +603,13 @@ recipes:
     standing_lamp:
         enabled: true  
         pattern:  
-        - SLS  
-        - XSX  
-        - XOX 
+        - XAX  
+        - XBX  
+        - CBC 
         ingredients:  
-          L: LANTERN
-          S: STICK 
-          O: OAK_SLAB
+          A: chinesestyle:chinese_standing_lamp
+          B: STICK
+          C: OAK_SLAB
         result:  
           item: chinesestyle:standing_lamp
           amount: 1
@@ -650,6 +650,57 @@ recipes:
           B: BAMBOO      
         result:  
           item: chinesestyle:tea_basket
+          amount: 1
+      # 宋代窗
+    song_dynasty_window:
+        enabled: true  
+        pattern:  
+        - ABA  
+        - BAB  
+        - ABA 
+        ingredients:  
+          A: PAPER
+          B: STICK      
+        result:  
+          item: chinesestyle:song_dynasty_window
+          amount: 1
+    # 宋代门
+    song_dynasty_door:
+        enabled: true  
+        pattern:  
+        - XAX
+        - XBX
+        - XXX
+        ingredients:  
+          A: chinesestyle:song_dynasty_window
+          B: OAK_PLANKS      
+        result:  
+          item: chinesestyle:song_dynasty_door
+          amount: 1
+    # 窗（一格）
+    window_1:
+        enabled: true  
+        pattern:  
+        - AAA
+        - ABA
+        - AAA
+        ingredients:  
+          A: STICK
+          B: PAPER      
+        result:  
+          item: chinesestyle:window_1
+          amount: 1
+    # 窗（两格）
+    window_2:
+        enabled: true  
+        pattern:  
+        - XAX
+        - XAX
+        - XXX
+        ingredients:  
+          A: chinesestyle:window_1
+        result:  
+          item: chinesestyle:window_2
           amount: 1
   # 烧炼配方
   cooking: 
