@@ -47,3 +47,9 @@ categories:
       - hammeritem:prismarine_mooncake
       - hammeritem:creeper_mooncake
       - hammeritem:nether_mooncake
+  vanity_item:
+    enabled: true
+    icon: hammeritem:equipment_straw_hat
+    name: '时装物品'
+    items:
+      - hammeritem:equipment_straw_hat
