@@ -458,7 +458,7 @@ recipes:
         T: SUGAR
         B: BONE_MEAL
       result:
-        - item: hammeritem:icy_mooncake_alt
+        item: hammeritem:icy_mooncake_alt
       amount: 1
     yuzu_mooncake:
       enabled: true
